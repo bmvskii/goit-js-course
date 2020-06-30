@@ -314,34 +314,63 @@
 //     console.log("Hello world");
 // }
 
-const sum1 = function(a, b, c) {
-    return a + b + c;
-} 
+// const sum1 = function(a, b, c) {
+//     return a + b + c;
+// } 
 
-const sum2 = (a, b, c) => a + b + c;
+// const sum2 = (a, b, c) => a + b + c;
 
-const sum3 = function(a, b, c) {
-    if (a === b) {
-        ///
-    }
+// const sum3 = function(a, b, c) {
+//     if (a === b) {
+//         ///
+//     }
 
-    return a + b + c;
-} 
+//     return a + b + c;
+// } 
 
-const sum4 = (a, b, c) => {
-    if (a === b) {
-        ///
-    }
+// const sum4 = (a, b, c) => {
+//     if (a === b) {
+//         ///
+//     }
 
-    return a + b + c;
-};
+//     return a + b + c;
+// };
 
-const sum = (...args) => {
-    let total = 0;
+// const sum = (...args) => {
+//     let total = 0;
 
-    for (const arg of args) {
-        total += arg;
-    }
+//     for (const arg of args) {
+//         total += arg;
+//     }
 
-    return total;
-};
+//     return total;
+// };
+
+// const hasSpecialString = (originalString, word) => {
+//     if (originalString === '') {
+//         return;
+//     }
+
+//     if (word === '') {
+//         return;
+//     }
+
+//     const words = originalString.split(' ');
+
+//     //asdasdasd
+
+//     if (words.includes(word)) {
+//         console.log(`${word} есть в строке`);
+//     }
+// };
+
+
+// const run = () => {
+//     while (true) {
+//         const value = prompt("Введите строку");
+
+
+//     }
+// };
+
+
