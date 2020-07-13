@@ -303,25 +303,27 @@
 // showFabric3Name("Message", 100);
 // showFabric3Name("Message1", 200);
 
-const showText = function(showAction) {
-  showAction();
-}
+// const showText = function(showAction) {
+//   showAction();
+// }
 
-const object = {
-  fullname: "Username",
-  city: "Kharkiv",
-  message: "123",
-  showUserInfo: function() {
-    console.log(`${this.fullname} from ${this.city}`);
-  }
-}
+// const object = {
+//   fullname: "Username",
+//   city: "Kharkiv",
+//   message: "123",
+//   showUserInfo: function() {
+//     console.log(`${this.fullname} from ${this.city}`);
+//   }
+// }
 
-showText(object.showUserInfo.bind(object));
+// showText(object.showUserInfo.bind(object));
 
-var message = "456";
-const helloWorld = () => {
-  console.log(this.message);
-}
+// var message = "456";
+// const helloWorld = () => {
+//   console.log(this.message);
+// }
 
-helloWorld.call(null);
-helloWorld.call(object);
+// helloWorld.call(null);
+// helloWorld.call(object);
+
+console.log(this);
