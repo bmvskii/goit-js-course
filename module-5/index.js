@@ -478,32 +478,32 @@ let array = [];
 // console.log(Utilities.formatString("asdasdasASdas"));
 // console.log(Utilities.rules);
 
-class Animal {
-    type = '123';
-    #privateVar = 10;
+// class Animal {
+//     type = '123';
+//     #privateVar = 10;
 
-    constructor(type) {
-        this.type = type;
-    }
+//     constructor(type) {
+//         this.type = type;
+//     }
 
-    show() {
-        console.log(this.type);
-    }
-}
+//     show() {
+//         console.log(this.type);
+//     }
+// }
 
-class Tiger extends Animal {
-    constructor(name, type) {
-        super(type);
-        this.name = name;
-    }
+// class Tiger extends Animal {
+//     constructor(name, type) {
+//         super(type);
+//         this.name = name;
+//     }
 
-    show() {
-        super.show();
-        console.log(this.name);
-    }
-}
+//     show() {
+//         super.show();
+//         console.log(this.name);
+//     }
+// }
 
-const tiger = new Tiger("Ricardo", "black");
+// const tiger = new Tiger("Ricardo", "black");
 
-tiger.show();
-console.log(tiger.#privateVar);
+// tiger.show();
+// console.log(tiger.#privateVar);
