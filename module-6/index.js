@@ -61,21 +61,21 @@
 // console.log(transformString("Some string")); // sOmE StRiNg
 // console.log(transformString("Ukraine")); // uKrAiNe
 
-const summator = (...args) => {
-    let total = 0;
+// const summator = (...args) => {
+//     let total = 0;
 
-    for (const arg of args) {
-        if (typeof arg === 'number') {
-            total += arg;
-        }
-    }
+//     for (const arg of args) {
+//         if (typeof arg === 'number') {
+//             total += arg;
+//         }
+//     }
 
-    return total;
-};
+//     return total;
+// };
 
 
-const sum = summator(123, 2133, 435);
+// const sum = summator(123, 2133, 435);
 
-console.log(summator("123", 123123, true, "sadas", 12312, 54));
-console.log(summator("123", 123123, true, "sadas", 12, false, [], 100000));
+// console.log(summator("123", 123123, true, "sadas", 12312, 54));
+// console.log(summator("123", 123123, true, "sadas", 12, false, [], 100000));
 

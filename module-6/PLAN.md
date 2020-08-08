@@ -21,3 +21,27 @@
     - Смена подхода
     - Окей, гугл
 - Практика
+
+3. Императивный vs Функциональный стиль
+- Отличия
+- pure functions
+- functions with side effects
+- Array.prototype.forEach (РЕКОМЕНДУЕТСЯ)
+ - нельзя использовать break
+- Array.prototype.map (трансформация)
+ - возращает коллекцию
+ - не мутирует массив
+- Array.prototype.filter
+- Array.prototype.find
+- Array.prototype.every/some
+- Array.prototype.reduce
+ use cases:
+ - суммирование чисел
+ - комбинация map + filter
+ - склеивание в строку
+ доп. инфо:
+ - https://medium.com/@dave_lunny/reduce-your-fears-about-array-reduce-629b334ab945
+- Array.prototype.sort
+ - inplace сортировка
+ - кастомная функция сортировки
+- Чейнинг
