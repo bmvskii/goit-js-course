@@ -77,5 +77,98 @@
 // const sum = summator(123, 2133, 435);
 
 // console.log(summator("123", 123123, true, "sadas", 12312, 54));
-// console.log(summator("123", 123123, true, "sadas", 12, false, [], 100000));
 
+// const numbers = [1,2,3,4,5];
+
+// const increaseNumbers = (array) => {
+//     const result = [];
+
+//     for (let i = 0; i < array.length; i++) {
+//         result.push(array[i] * 2);
+//     }
+    
+//     return result;
+// }
+
+// const newArray = increaseNumbers(numbers);
+
+// console.log(numbers);
+
+// Array.prototype.method((elem, index, array) => {
+    
+// });
+
+// const numbers = [1, 2, 3, 20, 4, -10, 5, 6, 7];
+
+// const log = (elem) => console.log("ELEM:", elem);
+
+// numbers.forEach(log);
+
+// console.log(numbers.map((number) => number * 2));
+
+// console.log(numbers.filter((elem) => elem % 2 === 0));
+// console.log(numbers.filter((elem) => {
+//     if (elem % 2 !== 0) {
+//         return true;
+//     } 
+//     return false;
+// }));
+
+// console.log(numbers.find((elem) => elem > 4 && elem % 2 === 0));
+
+// console.log(numbers.every((elem) => elem > 0));
+// console.log(numbers.some((elem) => elem < 0));
+
+// console.log(numbers.sort((a, b) => b - a));
+
+// const strings = ["AAAA", "DDDD", "aaaa", "CCCC", "BBBB"];
+
+// console.log(strings.sort((str1, str2) => {
+//     const cmp1 = str1.toLowerCase();
+//     const cmp2 = str2.toLowerCase();
+
+//     if (cmp1 > cmp2) {
+//         return 1;
+//     } else if (cmp1 < cmp2) {
+//         return -1;
+//     }
+
+//     return 0;
+// }));
+
+// const array = [
+//     { value: 1, string: "DDDD" },
+//     { value: 10, string: "BBBB" },
+//     { value: 1, string: "AAAA" },
+//     { value: 5, string: "AAAA" },
+//     { value: 5, string: "ZZZZ" },
+//     { value: 5, string: "WWWW" },
+// ];
+
+// console.log(array.sort((obj1, obj2) => {
+//     if (obj1.value < obj2.value) {
+//         return 1;
+//     } else if (obj1.value > obj2.value) {
+//         return -1;
+//     } else {
+//         if (obj1.string < obj2.string) {
+//             return 1;
+//         } else if (obj1.string > obj2.string) {
+//             return -1;
+//         }
+
+//         return 0;
+//     }
+// }));
+
+const numbers = [1, 5, 10, -1, 40];
+
+console.log(numbers.reduce((acc, elem, index, array) => {
+    if (index === array.length - 1) {
+        return (acc + elem) / array.length;
+    }
+
+    return acc + elem;
+}, 0));
+
+console.log(numbers.reduce((acc, el, i, arr) => i === arr.length - 1 ? (acc + el) / arr.length : acc + el, 0));
