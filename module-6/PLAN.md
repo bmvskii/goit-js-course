@@ -39,6 +39,9 @@
  - суммирование чисел
  - комбинация map + filter
  - склеивание в строку
+ - уникальный элемент
+ - работа с объектами (четные и не четные числа)
+ - flattening 
  доп. инфо:
  - https://medium.com/@dave_lunny/reduce-your-fears-about-array-reduce-629b334ab945
 - Array.prototype.sort

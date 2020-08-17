@@ -161,14 +161,98 @@
 //     }
 // }));
 
-const numbers = [1, 5, 10, -1, 40];
+// const numbers = [1, 5, 10, -1, 40];
 
-console.log(numbers.reduce((acc, elem, index, array) => {
-    if (index === array.length - 1) {
-        return (acc + elem) / array.length;
-    }
+// console.log(numbers.reduce((acc, elem, index, array) => {
+//     if (index === array.length - 1) {
+//         return (acc + elem) / array.length;
+//     }
 
-    return acc + elem;
-}, 0));
+//     return acc + elem;
+// }, 0));
 
-console.log(numbers.reduce((acc, el, i, arr) => i === arr.length - 1 ? (acc + el) / arr.length : acc + el, 0));
+// console.log(numbers.reduce((acc, el, i, arr) => i === arr.length - 1 ? (acc + el) / arr.length : acc + el, 0));
+
+
+// Исходный массив: [[1,2,3], [4, 5, 6], [7, 8, 9], 10, 11]
+// Результат: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+// const flatArray = (array) => array.reduce((acc, elem) => [...acc.concat(elem)], []);
+
+// ...[1,2,3] = 1, 2, 3
+
+// Math.min(1, 30, 40, 10, 20);
+// Math.min(...[1, 2, 3]);
+
+// console.log(flatArray([[1,2,3], [4, 5, 6], [7, 8, 9], 10, 11]));
+
+// const numbersFoo = function(a, b) {
+//     return a + b;
+// }
+
+// const numbersArrowFoo = (a, b) => a + b;
+
+// ["AAAA", "CCCC", "BBBB", "CCCC", "AAAA"]
+// ["AAAA", "BBBB", "CCCC"]
+
+// const filterDuplicates = (array) => array.reduce((acc, elem) => 
+// !acc.includes(elem) && acc.push(elem) || acc, []);
+
+// const filterDuplicates = (array) => array.reduce((acc, elem) => 
+// acc.includes(elem) ? acc : acc.push(elem), []);
+
+// console.log(filterDuplicates(["AAAA", "CCCC", "BBBB", "CCCC", "AAAA"]));
+
+// const array = [
+//     {
+//         name: "Username 1",
+//         age: 10,
+//         gender: "male"
+//     },
+//     {
+//         name: "Username 2",
+//         age: 20,
+//         gender: "female"
+//     },
+//     {
+//         name: "Username 3",
+//         age: 30,
+//         gender: "male"
+//     },
+// ];
+
+// const result = array.filter(user => user.gender === 'male').map(user => user.name);
+    // .map(user => user.gender === 'male' && user.name)
+    // .filter(Boolean);
+
+// console.log(result);
+// console.log(arr);
+
+// const createUser = (user, age) => {
+//     return function(message) {
+//         console.log(`${user}:${age} said: ${message}`);
+//     }
+// }
+
+// const user1 = createUser("Vova", 20);
+// const user2 = createUser("Dima", 34);
+
+// user1("Privet");
+// user2("Andrey");
+// user2("Hello");
+
+const getCounter = (initial = 0) => {
+    let counter = initial; 
+    return () => ++counter;
+}
+
+const counter1 = getCounter();
+const counter2 = getCounter(10);
+const counter3 = getCounter(20);
+
+console.log(counter1());
+console.log(counter1());
+console.log(counter2());
+console.log(counter2());
+console.log(counter3());
+console.log(counter3());
