@@ -76,5 +76,75 @@
   - через dataset
 
 4. Создание и удаление узлов
+
+ - Cоздание через createElement
+  - При создании Элемент создается в памяти , но в DOM его еще нет
+
+ - Добавление
+  - appendChild(elem) - добавить в конец
+  - insertBefore(elem, nextSibling) - добавить перед
+    - если nextSibling - null, сработает , как appendChild
+    - один элемент не может быть в двух местах
+  - append - добавить в начало
+  - prepend - добавить в конец
+  - before/after - вставить до/после элемента
+  - replaceWith - заменить элемент
+
+- Удаление
+ - parent.removeChild(elem)
+ - elem.remove() - РЕКОМЕНДУЕТСЯ
+
+- Клонирование
+  - elem.cloneNode(true/false) - true/false (глубокое/поверхностное копирование)
+
+- innerHTML vs createElement
+
+- insertAdjacentHTML(position, html)
+  'beforebegin'
+  'afterbegin'
+  'beforeend'
+  'afterend'
+
+- insertAdjacentElement, insertAdjacentText
+
+Оптимизация работы с DOM
+- Repaint (visibility, outline, opacity, background-color) - проверяет видимость узлов
+- Reflow (padding, width, height, position) - более дорогая операция , чем Repaint
+- Страница не может ничего выполнять , если выполняется reflow/repaint
+
 5. События
+ - события - сигналы браузера, что что-то произошло, обрабатываются независимо, асинхронно
+ - комплексные события: keyup, click
+ - событийно-ориентированные программирование
+ - события формы: submit, focus
+ - повесить событие можно 3 способами
+  - через html
+  - свойство объекта - только 1 событие
+    - не использовать setAttribute для назначения обработчиков (аттрибуты - строки)
+  - addEventListener/removeEventListener
+    - удалять можно только, если колбек не анонимная функция
+    - event, handler, options (once, capture, passive)
+ - this в обработчике ссылается на элемент, на котором 'висит' событие
+ - Объект события:
+  - type
+  - target
+  - currentTarget
+ - event.preventDefault()
+ - события клавиатуры: keydown, keyup, keypress
+ - KeyboardEvent.key/.code
+ - focus/blur
+  - document.activeElement
+ - Событие change 
+   - input:text / textarea - после потери фокуса
+ - Для обработки input/textarea - используем событие input
+ - события документа: DOMContentLoaded, load, beforeunload, unload
+  - script tag - выполняется до того, как строиться DOM (кроме async, defer)
+ 
 6. Процесс построения веб-страницы
+- Если встречает script - выполняет
+- Если script грузится - DOM построение блокируется
+- Сначала CSS -> CSSOM -> JS -> HTML
+- CSS блокирует рендеринг
+-  Flash of Unstyled Content (FOUC)
+- async - асинхронная загрузка скриптов, может начать выполнение до построения DOM, после загрузки и перед событием load
+- defer - не блокирует построение DOM, после DOMContentLoaded
