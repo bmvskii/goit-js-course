@@ -80,3 +80,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // elem.className = ' some-new class';
     // console.log(elem.className);
 });
+

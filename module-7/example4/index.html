@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <form class="form">
+      <label>
+          Ширина:
+        <input value="0" min="0" max="100" class="form__input" data-type="width" type="range" />
+      </label>
+      <label>
+          Высота:
+        <input value="0" min="0" max="100" class="form__input" data-type="height" type="range" />
+      </label>
+      <label>
+        Текстовое содержимое:
+        <input type="text" class="form__input" data-type="text" placeholder="Введите содержимое">
+      </label>
+      <button class="submit">Submit</button>
+    </form>
+    <div class="shape">
+      <div class="shape__content" data-content="Hello"></div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

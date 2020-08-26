@@ -145,6 +145,6 @@
 - Если script грузится - DOM построение блокируется
 - Сначала CSS -> CSSOM -> JS -> HTML
 - CSS блокирует рендеринг
--  Flash of Unstyled Content (FOUC)
+- Flash of Unstyled Content (FOUC)
 - async - асинхронная загрузка скриптов, может начать выполнение до построения DOM, после загрузки и перед событием load
 - defer - не блокирует построение DOM, после DOMContentLoaded
