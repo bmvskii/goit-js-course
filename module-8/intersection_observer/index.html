@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .intersection-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+            height: 50vh;
+
+            flex-wrap: nowrap;
+            
+            overflow-y: auto;
+
+            flex-direction: column;
+            border: 2px solid red;
+            border-radius: 8px;
+
+            padding: 20px;
+        }
+
+        .entry {
+            width: 100%;
+            min-height: 200px;
+            background-color: green;
+
+            border-radius: 8px;
+            box-shadow: 0 0 10px 1px rgba(0,0,0, .3);
+            transition: .3s ease;
+            visibility: visible;
+        }
+
+        .entry:not(:last-child) {
+            margin-bottom: 20px;
+        }
+
+        .hidden {
+            visibility: hidden;
+            opacity: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="intersection-wrapper">
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+        <div class="entry"></div>
+    </div>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver%2CIntersectionObserverEntry"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
