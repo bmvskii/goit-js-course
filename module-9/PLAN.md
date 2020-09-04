@@ -75,3 +75,47 @@
             import * as name from 'module'
 
 4. Webpack
+    Проблемы: 
+    - Последовательность скриптов
+    - Подключение большого количества скриптов
+
+    Режимы (mode) webpack:
+        - production
+        - development
+        - none
+
+    Строки:
+        - [name].[contenthash]
+
+    Chunks
+    Loaders
+    Entrypoint
+    Plugins
+    Output
+
+    loader - справа на лево
+
+    Работа с js
+    Дефолтные ext = js/json
+
+    Private = true
+    Remove main
+
+    Webpack dev server - Оперативная память, нет изменений в папке dist
+
+
+    webpack [--mode] production/development [entrypoint.js] --output [output_dir] --watch 
+
+    transpilation (babel)
+
+    2 ways:
+        --module-bing (npm-scripts)
+        webpack.config.js
+
+    {
+        test: /\.YOUR_FILE_EXTENSION$/, // расширение файла
+        exclude: /SOMETHING THAT IS THAT EXTENSION BUT SHOULD NOT BE PROCESSED/, // что-то, что не должно обрабатываться
+        use: {
+          loader: "loader for your file extension  or a group of loaders" // загрузчик или группа загрузчиков
+        }
+    }

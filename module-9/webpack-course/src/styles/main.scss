@@ -1,0 +1,18 @@
+$header-bg: red;
+$footer-bg: green;
+$main-bg: gray;
+
+.header {
+    background-color: $header-bg;
+    height: 10vh;
+}
+
+.main {
+    background-color: $main-bg;
+    height: 80vh;
+}
+
+.footer {
+    height: 10vh;
+    background-color: $footer-bg;
+}
