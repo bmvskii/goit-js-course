@@ -1,0 +1,16 @@
+<div class="card">
+    <img src="{{url}}" alt="" class="card__image">
+    <h2 class="card__title">{{title}}</h2>
+    <p class="card__text">{{text}}</p>
+
+    {{#each person}}
+        <li>{{@index}} {{this}}</li>
+    {{/each}}
+
+    {{#if hasMoney}}
+        <strong>HAS MONEY</strong>
+    {{else}}
+        <strong>HASN'T MONEY</strong>
+    {{/if}}
+
+</div>

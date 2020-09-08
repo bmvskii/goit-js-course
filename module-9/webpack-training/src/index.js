@@ -8,12 +8,10 @@ import babel from './babel';
 
 import './styles/index.scss'
 
-const post = new Post("Webpack hero");
+const post = new Post("Webpack ALALA1232");
 
 console.log(JSON.stringify(json));
 console.log(Img);
 
 console.log(post.toString());
 initAnalitics();
-
-$('.title').html(post.toString());

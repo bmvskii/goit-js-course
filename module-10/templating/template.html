@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cards-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards-wrapper"></div>
+
+    <template id="card-template">
+        <div class="card">
+            <img class="card__image" src="{{url}}" alt="some image">
+            <h2 class="card__title">{{title}}</h2>
+            <p class="card__para">{{paragraph}}</p>
+        </div>
+    </template>
+
+    <script id="" type="text/x-handlebars-template"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="./template.js"></script>
+</body>
+</html>

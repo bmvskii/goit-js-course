@@ -4,25 +4,25 @@ Use Ctrl+C to close it
   "errors": [],
   "warnings": [],
   "version": "4.44.1",
-  "hash": "639f5d70d6df49aef0fc",
-  "time": 2227,
-  "builtAt": 1599156798651,
+  "hash": "22671da9ca42bf87c570",
+  "time": 2360,
+  "builtAt": 1599405554750,
   "publicPath": "",
   "outputPath": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/dist",
   "assetsByChunkName": {
-    "analytics": "analytics.639f5d70d6df49aef0fc.js",
+    "analytics": "analytics.22671da9ca42bf87c570.js",
     "main": [
-      "main.639f5d70d6df49aef0fc.css",
-      "main.639f5d70d6df49aef0fc.js"
+      "main.22671da9ca42bf87c570.css",
+      "main.22671da9ca42bf87c570.js"
     ],
     "vendors~main": [
-      "vendors~main.639f5d70d6df49aef0fc.css",
-      "vendors~main.639f5d70d6df49aef0fc.js"
+      "vendors~main.22671da9ca42bf87c570.css",
+      "vendors~main.22671da9ca42bf87c570.js"
     ]
   },
   "assets": [
     {
-      "name": "analytics.639f5d70d6df49aef0fc.js",
+      "name": "analytics.22671da9ca42bf87c570.js",
       "size": 4283,
       "chunks": [
         "analytics"
@@ -57,15 +57,15 @@ Use Ctrl+C to close it
     },
     {
       "name": "index.html",
-      "size": 696,
+      "size": 774,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": true
     },
     {
-      "name": "main.639f5d70d6df49aef0fc.css",
-      "size": 451,
+      "name": "main.22671da9ca42bf87c570.css",
+      "size": 444,
       "chunks": [
         "main"
       ],
@@ -78,8 +78,8 @@ Use Ctrl+C to close it
       "emitted": true
     },
     {
-      "name": "main.639f5d70d6df49aef0fc.js",
-      "size": 12528,
+      "name": "main.22671da9ca42bf87c570.js",
+      "size": 12454,
       "chunks": [
         "main"
       ],
@@ -92,7 +92,7 @@ Use Ctrl+C to close it
       "emitted": true
     },
     {
-      "name": "vendors~main.639f5d70d6df49aef0fc.css",
+      "name": "vendors~main.22671da9ca42bf87c570.css",
       "size": 6139,
       "chunks": [
         "vendors~main"
@@ -106,7 +106,7 @@ Use Ctrl+C to close it
       "emitted": true
     },
     {
-      "name": "vendors~main.639f5d70d6df49aef0fc.js",
+      "name": "vendors~main.22671da9ca42bf87c570.js",
       "size": 699143,
       "chunks": [
         "vendors~main"
@@ -128,10 +128,10 @@ Use Ctrl+C to close it
         "main"
       ],
       "assets": [
-        "vendors~main.639f5d70d6df49aef0fc.css",
-        "vendors~main.639f5d70d6df49aef0fc.js",
-        "main.639f5d70d6df49aef0fc.css",
-        "main.639f5d70d6df49aef0fc.js"
+        "vendors~main.22671da9ca42bf87c570.css",
+        "vendors~main.22671da9ca42bf87c570.js",
+        "main.22671da9ca42bf87c570.css",
+        "main.22671da9ca42bf87c570.js"
       ],
       "children": {},
       "childAssets": {}
@@ -141,7 +141,7 @@ Use Ctrl+C to close it
         "analytics"
       ],
       "assets": [
-        "analytics.639f5d70d6df49aef0fc.js"
+        "analytics.22671da9ca42bf87c570.js"
       ],
       "children": {},
       "childAssets": {}
@@ -154,10 +154,10 @@ Use Ctrl+C to close it
         "main"
       ],
       "assets": [
-        "vendors~main.639f5d70d6df49aef0fc.css",
-        "vendors~main.639f5d70d6df49aef0fc.js",
-        "main.639f5d70d6df49aef0fc.css",
-        "main.639f5d70d6df49aef0fc.js"
+        "vendors~main.22671da9ca42bf87c570.css",
+        "vendors~main.22671da9ca42bf87c570.js",
+        "main.22671da9ca42bf87c570.css",
+        "main.22671da9ca42bf87c570.js"
       ],
       "children": {},
       "childAssets": {}
@@ -167,7 +167,7 @@ Use Ctrl+C to close it
         "analytics"
       ],
       "assets": [
-        "analytics.639f5d70d6df49aef0fc.js"
+        "analytics.22671da9ca42bf87c570.js"
       ],
       "children": {},
       "childAssets": {}
@@ -184,7 +184,7 @@ Use Ctrl+C to close it
         "analytics"
       ],
       "files": [
-        "analytics.639f5d70d6df49aef0fc.js"
+        "analytics.22671da9ca42bf87c570.js"
       ],
       "hash": "80a27271534d74564af2",
       "siblings": [],
@@ -267,15 +267,15 @@ Use Ctrl+C to close it
       "rendered": true,
       "initial": true,
       "entry": true,
-      "size": 2777,
+      "size": 2740,
       "names": [
         "main"
       ],
       "files": [
-        "main.639f5d70d6df49aef0fc.css",
-        "main.639f5d70d6df49aef0fc.js"
+        "main.22671da9ca42bf87c570.css",
+        "main.22671da9ca42bf87c570.js"
       ],
-      "hash": "3daa123163efc3c2e2dd",
+      "hash": "a0efe2a6fdeea76f58d1",
       "siblings": [
         "vendors~main"
       ],
@@ -612,7 +612,7 @@ Use Ctrl+C to close it
           "name": "./index.js",
           "index": 308,
           "index2": 316,
-          "size": 403,
+          "size": 373,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -648,7 +648,7 @@ Use Ctrl+C to close it
           "providedExports": [],
           "optimizationBailout": [],
           "depth": 1,
-          "source": "import Post from './Post';\nimport $ from 'jquery';\nimport { initAnalitics } from './analytics';\nimport json from './assets/json';\nimport Img from './assets/traversing.png';\nimport babel from './babel';\nimport './styles/index.scss';\nvar post = new Post(\"Webpack hero\");\nconsole.log(JSON.stringify(json));\nconsole.log(Img);\nconsole.log(post.toString());\ninitAnalitics();\n$('.title').html(post.toString());"
+          "source": "import Post from './Post';\nimport $ from 'jquery';\nimport { initAnalitics } from './analytics';\nimport json from './assets/json';\nimport Img from './assets/traversing.png';\nimport babel from './babel';\nimport './styles/index.scss';\nvar post = new Post(\"Webpack ALALA1232\");\nconsole.log(JSON.stringify(json));\nconsole.log(Img);\nconsole.log(post.toString());\ninitAnalitics();"
         },
         {
           "id": "./styles/index.scss",
@@ -707,7 +707,7 @@ Use Ctrl+C to close it
           "name": "css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src!../node_modules/sass-loader/dist/cjs.js!./styles/index.scss",
           "index": 317,
           "index2": 314,
-          "size": 450,
+          "size": 443,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -774,8 +774,8 @@ Use Ctrl+C to close it
         "vendors~main"
       ],
       "files": [
-        "vendors~main.639f5d70d6df49aef0fc.css",
-        "vendors~main.639f5d70d6df49aef0fc.js"
+        "vendors~main.22671da9ca42bf87c570.css",
+        "vendors~main.22671da9ca42bf87c570.js"
       ],
       "hash": "1fba24ea802cdf209633",
       "siblings": [
@@ -3027,9 +3027,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
-          "issuerId": "../node_modules/core-js/modules/es7.array.includes.js",
-          "issuerName": "../node_modules/core-js/modules/es7.array.includes.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
+          "issuerId": "../node_modules/core-js/modules/es7.array.flat-map.js",
+          "issuerName": "../node_modules/core-js/modules/es7.array.flat-map.js",
           "issuerPath": [
             {
               "id": 0,
@@ -3047,14 +3047,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/array/includes.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
-              "name": "../node_modules/core-js/fn/array/includes.js"
+              "id": "../node_modules/core-js/fn/array/flat-map.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
+              "name": "../node_modules/core-js/fn/array/flat-map.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.array.includes.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
-              "name": "../node_modules/core-js/modules/es7.array.includes.js"
+              "id": "../node_modules/core-js/modules/es7.array.flat-map.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
+              "name": "../node_modules/core-js/modules/es7.array.flat-map.js"
             }
           ],
           "failed": false,
@@ -4576,9 +4576,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.set.js",
-          "issuerId": "../node_modules/core-js/modules/es6.set.js",
-          "issuerName": "../node_modules/core-js/modules/es6.set.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.map.js",
+          "issuerId": "../node_modules/core-js/modules/es6.map.js",
+          "issuerName": "../node_modules/core-js/modules/es6.map.js",
           "issuerPath": [
             {
               "id": 0,
@@ -4601,9 +4601,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.set.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.set.js",
-              "name": "../node_modules/core-js/modules/es6.set.js"
+              "id": "../node_modules/core-js/modules/es6.map.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.map.js",
+              "name": "../node_modules/core-js/modules/es6.map.js"
             }
           ],
           "failed": false,
@@ -4813,9 +4813,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
-          "issuerId": "../node_modules/core-js/fn/array/flat-map.js",
-          "issuerName": "../node_modules/core-js/fn/array/flat-map.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
+          "issuerId": "../node_modules/core-js/fn/array/includes.js",
+          "issuerName": "../node_modules/core-js/fn/array/includes.js",
           "issuerPath": [
             {
               "id": 0,
@@ -4833,9 +4833,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/array/flat-map.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
-              "name": "../node_modules/core-js/fn/array/flat-map.js"
+              "id": "../node_modules/core-js/fn/array/includes.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
+              "name": "../node_modules/core-js/fn/array/includes.js"
             }
           ],
           "failed": false,
@@ -5043,9 +5043,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.of.js",
-          "issuerId": "../node_modules/core-js/modules/es6.array.of.js",
-          "issuerName": "../node_modules/core-js/modules/es6.array.of.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.from.js",
+          "issuerId": "../node_modules/core-js/modules/es6.array.from.js",
+          "issuerName": "../node_modules/core-js/modules/es6.array.from.js",
           "issuerPath": [
             {
               "id": 0,
@@ -5068,9 +5068,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.array.of.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.of.js",
-              "name": "../node_modules/core-js/modules/es6.array.of.js"
+              "id": "../node_modules/core-js/modules/es6.array.from.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.from.js",
+              "name": "../node_modules/core-js/modules/es6.array.from.js"
             }
           ],
           "failed": false,
@@ -5418,14 +5418,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/string/trim-start.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-start.js",
-              "name": "../node_modules/core-js/fn/string/trim-start.js"
+              "id": "../node_modules/core-js/fn/string/trim-end.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-end.js",
+              "name": "../node_modules/core-js/fn/string/trim-end.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.string.trim-left.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-              "name": "../node_modules/core-js/modules/es7.string.trim-left.js"
+              "id": "../node_modules/core-js/modules/es7.string.trim-right.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+              "name": "../node_modules/core-js/modules/es7.string.trim-right.js"
             },
             {
               "id": "../node_modules/core-js/modules/_string-trim.js",
@@ -5852,9 +5852,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-create.js",
-          "issuerId": "../node_modules/core-js/modules/_object-create.js",
-          "issuerName": "../node_modules/core-js/modules/_object-create.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-gopn.js",
+          "issuerId": "../node_modules/core-js/modules/_object-gopn.js",
+          "issuerName": "../node_modules/core-js/modules/_object-gopn.js",
           "issuerPath": [
             {
               "id": 0,
@@ -5877,14 +5877,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.object.create.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.create.js",
-              "name": "../node_modules/core-js/modules/es6.object.create.js"
+              "id": "../node_modules/core-js/modules/es6.number.constructor.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.constructor.js",
+              "name": "../node_modules/core-js/modules/es6.number.constructor.js"
             },
             {
-              "id": "../node_modules/core-js/modules/_object-create.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-create.js",
-              "name": "../node_modules/core-js/modules/_object-create.js"
+              "id": "../node_modules/core-js/modules/_object-gopn.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-gopn.js",
+              "name": "../node_modules/core-js/modules/_object-gopn.js"
             }
           ],
           "failed": false,
@@ -6003,9 +6003,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
-          "issuerId": "../node_modules/core-js/modules/es7.array.flat-map.js",
-          "issuerName": "../node_modules/core-js/modules/es7.array.flat-map.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
+          "issuerId": "../node_modules/core-js/modules/es7.array.includes.js",
+          "issuerName": "../node_modules/core-js/modules/es7.array.includes.js",
           "issuerPath": [
             {
               "id": 0,
@@ -6023,14 +6023,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/array/flat-map.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
-              "name": "../node_modules/core-js/fn/array/flat-map.js"
+              "id": "../node_modules/core-js/fn/array/includes.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
+              "name": "../node_modules/core-js/fn/array/includes.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.array.flat-map.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
-              "name": "../node_modules/core-js/modules/es7.array.flat-map.js"
+              "id": "../node_modules/core-js/modules/es7.array.includes.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
+              "name": "../node_modules/core-js/modules/es7.array.includes.js"
             }
           ],
           "failed": false,
@@ -6967,9 +6967,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.includes.js",
-          "issuerId": "../node_modules/core-js/modules/es6.string.includes.js",
-          "issuerName": "../node_modules/core-js/modules/es6.string.includes.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
+          "issuerId": "../node_modules/core-js/modules/es6.string.ends-with.js",
+          "issuerName": "../node_modules/core-js/modules/es6.string.ends-with.js",
           "issuerPath": [
             {
               "id": 0,
@@ -6992,9 +6992,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.string.includes.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.includes.js",
-              "name": "../node_modules/core-js/modules/es6.string.includes.js"
+              "id": "../node_modules/core-js/modules/es6.string.ends-with.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
+              "name": "../node_modules/core-js/modules/es6.string.ends-with.js"
             }
           ],
           "failed": false,
@@ -7374,9 +7374,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-          "issuerId": "../node_modules/core-js/modules/es6.regexp.search.js",
-          "issuerName": "../node_modules/core-js/modules/es6.regexp.search.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+          "issuerId": "../node_modules/core-js/modules/es6.regexp.split.js",
+          "issuerName": "../node_modules/core-js/modules/es6.regexp.split.js",
           "issuerPath": [
             {
               "id": 0,
@@ -7399,9 +7399,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.regexp.search.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-              "name": "../node_modules/core-js/modules/es6.regexp.search.js"
+              "id": "../node_modules/core-js/modules/es6.regexp.split.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+              "name": "../node_modules/core-js/modules/es6.regexp.split.js"
             }
           ],
           "failed": false,
@@ -7780,9 +7780,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-          "issuerId": "../node_modules/core-js/modules/es7.promise.finally.js",
-          "issuerName": "../node_modules/core-js/modules/es7.promise.finally.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.symbol.js",
+          "issuerId": "../node_modules/core-js/modules/es6.symbol.js",
+          "issuerName": "../node_modules/core-js/modules/es6.symbol.js",
           "issuerPath": [
             {
               "id": 0,
@@ -7800,14 +7800,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/promise/finally.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/promise/finally.js",
-              "name": "../node_modules/core-js/fn/promise/finally.js"
+              "id": "../node_modules/core-js/es6/index.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/es6/index.js",
+              "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.promise.finally.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-              "name": "../node_modules/core-js/modules/es7.promise.finally.js"
+              "id": "../node_modules/core-js/modules/es6.symbol.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.symbol.js",
+              "name": "../node_modules/core-js/modules/es6.symbol.js"
             }
           ],
           "failed": false,
@@ -8288,14 +8288,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/array/includes.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
-              "name": "../node_modules/core-js/fn/array/includes.js"
+              "id": "../node_modules/core-js/fn/array/flat-map.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
+              "name": "../node_modules/core-js/fn/array/flat-map.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.array.includes.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
-              "name": "../node_modules/core-js/modules/es7.array.includes.js"
+              "id": "../node_modules/core-js/modules/es7.array.flat-map.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
+              "name": "../node_modules/core-js/modules/es7.array.flat-map.js"
             },
             {
               "id": "../node_modules/core-js/modules/_add-to-unscopables.js",
@@ -9039,9 +9039,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-safe-integer.js",
-          "issuerId": "../node_modules/core-js/modules/es6.number.is-safe-integer.js",
-          "issuerName": "../node_modules/core-js/modules/es6.number.is-safe-integer.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-integer.js",
+          "issuerId": "../node_modules/core-js/modules/es6.number.is-integer.js",
+          "issuerName": "../node_modules/core-js/modules/es6.number.is-integer.js",
           "issuerPath": [
             {
               "id": 0,
@@ -9064,9 +9064,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.number.is-safe-integer.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-safe-integer.js",
-              "name": "../node_modules/core-js/modules/es6.number.is-safe-integer.js"
+              "id": "../node_modules/core-js/modules/es6.number.is-integer.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-integer.js",
+              "name": "../node_modules/core-js/modules/es6.number.is-integer.js"
             }
           ],
           "failed": false,
@@ -9462,9 +9462,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.string.ends-with.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
-              "name": "../node_modules/core-js/modules/es6.string.ends-with.js"
+              "id": "../node_modules/core-js/modules/es6.string.starts-with.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.starts-with.js",
+              "name": "../node_modules/core-js/modules/es6.string.starts-with.js"
             },
             {
               "id": "../node_modules/core-js/modules/_string-context.js",
@@ -10454,9 +10454,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.seal.js",
-          "issuerId": "../node_modules/core-js/modules/es6.object.seal.js",
-          "issuerName": "../node_modules/core-js/modules/es6.object.seal.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.prevent-extensions.js",
+          "issuerId": "../node_modules/core-js/modules/es6.object.prevent-extensions.js",
+          "issuerName": "../node_modules/core-js/modules/es6.object.prevent-extensions.js",
           "issuerPath": [
             {
               "id": 0,
@@ -10479,9 +10479,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.object.seal.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.seal.js",
-              "name": "../node_modules/core-js/modules/es6.object.seal.js"
+              "id": "../node_modules/core-js/modules/es6.object.prevent-extensions.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.prevent-extensions.js",
+              "name": "../node_modules/core-js/modules/es6.object.prevent-extensions.js"
             }
           ],
           "failed": false,
@@ -12194,9 +12194,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.values.js",
-          "issuerId": "../node_modules/core-js/modules/es7.object.values.js",
-          "issuerName": "../node_modules/core-js/modules/es7.object.values.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.entries.js",
+          "issuerId": "../node_modules/core-js/modules/es7.object.entries.js",
+          "issuerName": "../node_modules/core-js/modules/es7.object.entries.js",
           "issuerPath": [
             {
               "id": 0,
@@ -12214,14 +12214,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/object/values.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/object/values.js",
-              "name": "../node_modules/core-js/fn/object/values.js"
+              "id": "../node_modules/core-js/fn/object/entries.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/object/entries.js",
+              "name": "../node_modules/core-js/fn/object/entries.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.object.values.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.values.js",
-              "name": "../node_modules/core-js/modules/es7.object.values.js"
+              "id": "../node_modules/core-js/modules/es7.object.entries.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.entries.js",
+              "name": "../node_modules/core-js/modules/es7.object.entries.js"
             }
           ],
           "failed": false,
@@ -12550,9 +12550,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-          "issuerId": "../node_modules/core-js/modules/es7.promise.finally.js",
-          "issuerName": "../node_modules/core-js/modules/es7.promise.finally.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+          "issuerId": "../node_modules/core-js/modules/es6.promise.js",
+          "issuerName": "../node_modules/core-js/modules/es6.promise.js",
           "issuerPath": [
             {
               "id": 0,
@@ -12575,9 +12575,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/fn/promise/finally.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.promise.finally.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-              "name": "../node_modules/core-js/modules/es7.promise.finally.js"
+              "id": "../node_modules/core-js/modules/es6.promise.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+              "name": "../node_modules/core-js/modules/es6.promise.js"
             }
           ],
           "failed": false,
@@ -13022,9 +13022,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-          "issuerId": "../node_modules/core-js/modules/es6.regexp.search.js",
-          "issuerName": "../node_modules/core-js/modules/es6.regexp.search.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+          "issuerId": "../node_modules/core-js/modules/es6.regexp.split.js",
+          "issuerName": "../node_modules/core-js/modules/es6.regexp.split.js",
           "issuerPath": [
             {
               "id": 0,
@@ -13047,9 +13047,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.regexp.search.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-              "name": "../node_modules/core-js/modules/es6.regexp.search.js"
+              "id": "../node_modules/core-js/modules/es6.regexp.split.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+              "name": "../node_modules/core-js/modules/es6.regexp.split.js"
             }
           ],
           "failed": false,
@@ -13751,9 +13751,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-          "issuerId": "../node_modules/core-js/modules/es7.promise.finally.js",
-          "issuerName": "../node_modules/core-js/modules/es7.promise.finally.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+          "issuerId": "../node_modules/core-js/modules/es6.promise.js",
+          "issuerName": "../node_modules/core-js/modules/es6.promise.js",
           "issuerPath": [
             {
               "id": 0,
@@ -13776,9 +13776,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/fn/promise/finally.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.promise.finally.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-              "name": "../node_modules/core-js/modules/es7.promise.finally.js"
+              "id": "../node_modules/core-js/modules/es6.promise.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+              "name": "../node_modules/core-js/modules/es6.promise.js"
             }
           ],
           "failed": false,
@@ -14087,9 +14087,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
-          "issuerId": "../node_modules/core-js/modules/es6.string.ends-with.js",
-          "issuerName": "../node_modules/core-js/modules/es6.string.ends-with.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.starts-with.js",
+          "issuerId": "../node_modules/core-js/modules/es6.string.starts-with.js",
+          "issuerName": "../node_modules/core-js/modules/es6.string.starts-with.js",
           "issuerPath": [
             {
               "id": 0,
@@ -14112,9 +14112,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.string.ends-with.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
-              "name": "../node_modules/core-js/modules/es6.string.ends-with.js"
+              "id": "../node_modules/core-js/modules/es6.string.starts-with.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.starts-with.js",
+              "name": "../node_modules/core-js/modules/es6.string.starts-with.js"
             }
           ],
           "failed": false,
@@ -14169,9 +14169,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.blink.js",
-          "issuerId": "../node_modules/core-js/modules/es6.string.blink.js",
-          "issuerName": "../node_modules/core-js/modules/es6.string.blink.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.bold.js",
+          "issuerId": "../node_modules/core-js/modules/es6.string.bold.js",
+          "issuerName": "../node_modules/core-js/modules/es6.string.bold.js",
           "issuerPath": [
             {
               "id": 0,
@@ -14194,9 +14194,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.string.blink.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.blink.js",
-              "name": "../node_modules/core-js/modules/es6.string.blink.js"
+              "id": "../node_modules/core-js/modules/es6.string.bold.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.bold.js",
+              "name": "../node_modules/core-js/modules/es6.string.bold.js"
             }
           ],
           "failed": false,
@@ -14341,9 +14341,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-end.js",
-          "issuerId": "../node_modules/core-js/modules/es7.string.pad-end.js",
-          "issuerName": "../node_modules/core-js/modules/es7.string.pad-end.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-start.js",
+          "issuerId": "../node_modules/core-js/modules/es7.string.pad-start.js",
+          "issuerName": "../node_modules/core-js/modules/es7.string.pad-start.js",
           "issuerPath": [
             {
               "id": 0,
@@ -14361,14 +14361,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/string/pad-end.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/pad-end.js",
-              "name": "../node_modules/core-js/fn/string/pad-end.js"
+              "id": "../node_modules/core-js/fn/string/pad-start.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/pad-start.js",
+              "name": "../node_modules/core-js/fn/string/pad-start.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.string.pad-end.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-end.js",
-              "name": "../node_modules/core-js/modules/es7.string.pad-end.js"
+              "id": "../node_modules/core-js/modules/es7.string.pad-start.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-start.js",
+              "name": "../node_modules/core-js/modules/es7.string.pad-start.js"
             }
           ],
           "failed": false,
@@ -14496,9 +14496,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-          "issuerId": "../node_modules/core-js/modules/es7.string.trim-left.js",
-          "issuerName": "../node_modules/core-js/modules/es7.string.trim-left.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+          "issuerId": "../node_modules/core-js/modules/es7.string.trim-right.js",
+          "issuerName": "../node_modules/core-js/modules/es7.string.trim-right.js",
           "issuerPath": [
             {
               "id": 0,
@@ -14516,14 +14516,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/string/trim-start.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-start.js",
-              "name": "../node_modules/core-js/fn/string/trim-start.js"
+              "id": "../node_modules/core-js/fn/string/trim-end.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-end.js",
+              "name": "../node_modules/core-js/fn/string/trim-end.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.string.trim-left.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-              "name": "../node_modules/core-js/modules/es7.string.trim-left.js"
+              "id": "../node_modules/core-js/modules/es7.string.trim-right.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+              "name": "../node_modules/core-js/modules/es7.string.trim-right.js"
             }
           ],
           "failed": false,
@@ -14625,14 +14625,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
             },
             {
-              "id": "../node_modules/core-js/fn/string/trim-start.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-start.js",
-              "name": "../node_modules/core-js/fn/string/trim-start.js"
+              "id": "../node_modules/core-js/fn/string/trim-end.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-end.js",
+              "name": "../node_modules/core-js/fn/string/trim-end.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es7.string.trim-left.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-              "name": "../node_modules/core-js/modules/es7.string.trim-left.js"
+              "id": "../node_modules/core-js/modules/es7.string.trim-right.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+              "name": "../node_modules/core-js/modules/es7.string.trim-right.js"
             },
             {
               "id": "../node_modules/core-js/modules/_string-trim.js",
@@ -14892,9 +14892,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-buffer.js",
-          "issuerId": "../node_modules/core-js/modules/_typed-buffer.js",
-          "issuerName": "../node_modules/core-js/modules/_typed-buffer.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-array.js",
+          "issuerId": "../node_modules/core-js/modules/_typed-array.js",
+          "issuerName": "../node_modules/core-js/modules/_typed-array.js",
           "issuerPath": [
             {
               "id": 0,
@@ -14917,14 +14917,14 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.typed.data-view.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-              "name": "../node_modules/core-js/modules/es6.typed.data-view.js"
+              "id": "../node_modules/core-js/modules/es6.typed.float32-array.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float32-array.js",
+              "name": "../node_modules/core-js/modules/es6.typed.float32-array.js"
             },
             {
-              "id": "../node_modules/core-js/modules/_typed-buffer.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-buffer.js",
-              "name": "../node_modules/core-js/modules/_typed-buffer.js"
+              "id": "../node_modules/core-js/modules/_typed-array.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-array.js",
+              "name": "../node_modules/core-js/modules/_typed-array.js"
             }
           ],
           "failed": false,
@@ -15848,9 +15848,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float64-array.js",
-          "issuerId": "../node_modules/core-js/modules/es6.typed.float64-array.js",
-          "issuerName": "../node_modules/core-js/modules/es6.typed.float64-array.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float32-array.js",
+          "issuerId": "../node_modules/core-js/modules/es6.typed.float32-array.js",
+          "issuerName": "../node_modules/core-js/modules/es6.typed.float32-array.js",
           "issuerPath": [
             {
               "id": 0,
@@ -15873,9 +15873,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.typed.float64-array.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float64-array.js",
-              "name": "../node_modules/core-js/modules/es6.typed.float64-array.js"
+              "id": "../node_modules/core-js/modules/es6.typed.float32-array.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float32-array.js",
+              "name": "../node_modules/core-js/modules/es6.typed.float32-array.js"
             }
           ],
           "failed": false,
@@ -15984,9 +15984,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-          "issuerId": "../node_modules/core-js/modules/es6.typed.data-view.js",
-          "issuerName": "../node_modules/core-js/modules/es6.typed.data-view.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "issuerId": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "issuerName": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
           "issuerPath": [
             {
               "id": 0,
@@ -16009,9 +16009,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.typed.data-view.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-              "name": "../node_modules/core-js/modules/es6.typed.data-view.js"
+              "id": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+              "name": "../node_modules/core-js/modules/es6.typed.array-buffer.js"
             }
           ],
           "failed": false,
@@ -16066,9 +16066,9 @@ Use Ctrl+C to close it
           "chunks": [
             "vendors~main"
           ],
-          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-          "issuerId": "../node_modules/core-js/modules/es6.typed.data-view.js",
-          "issuerName": "../node_modules/core-js/modules/es6.typed.data-view.js",
+          "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "issuerId": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "issuerName": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
           "issuerPath": [
             {
               "id": 0,
@@ -16091,9 +16091,9 @@ Use Ctrl+C to close it
               "name": "../node_modules/core-js/es6/index.js"
             },
             {
-              "id": "../node_modules/core-js/modules/es6.typed.data-view.js",
-              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-              "name": "../node_modules/core-js/modules/es6.typed.data-view.js"
+              "id": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+              "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+              "name": "../node_modules/core-js/modules/es6.typed.array-buffer.js"
             }
           ],
           "failed": false,
@@ -26087,15 +26087,6 @@ Use Ctrl+C to close it
               "type": "harmony side effect evaluation",
               "userRequest": "jquery",
               "loc": "2:0-23"
-            },
-            {
-              "moduleId": "./index.js",
-              "moduleIdentifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/babel-loader/lib/index.js??ref--8-0!/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/src/index.js",
-              "module": "./index.js",
-              "moduleName": "./index.js",
-              "type": "harmony import specifier",
-              "userRequest": "jquery",
-              "loc": "13:0-1"
             }
           ],
           "providedExports": null,
@@ -28497,9 +28488,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
-      "issuerId": "../node_modules/core-js/modules/es7.array.includes.js",
-      "issuerName": "../node_modules/core-js/modules/es7.array.includes.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
+      "issuerId": "../node_modules/core-js/modules/es7.array.flat-map.js",
+      "issuerName": "../node_modules/core-js/modules/es7.array.flat-map.js",
       "issuerPath": [
         {
           "id": 0,
@@ -28517,14 +28508,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/array/includes.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
-          "name": "../node_modules/core-js/fn/array/includes.js"
+          "id": "../node_modules/core-js/fn/array/flat-map.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
+          "name": "../node_modules/core-js/fn/array/flat-map.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.array.includes.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
-          "name": "../node_modules/core-js/modules/es7.array.includes.js"
+          "id": "../node_modules/core-js/modules/es7.array.flat-map.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
+          "name": "../node_modules/core-js/modules/es7.array.flat-map.js"
         }
       ],
       "failed": false,
@@ -30046,9 +30037,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.set.js",
-      "issuerId": "../node_modules/core-js/modules/es6.set.js",
-      "issuerName": "../node_modules/core-js/modules/es6.set.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.map.js",
+      "issuerId": "../node_modules/core-js/modules/es6.map.js",
+      "issuerName": "../node_modules/core-js/modules/es6.map.js",
       "issuerPath": [
         {
           "id": 0,
@@ -30071,9 +30062,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.set.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.set.js",
-          "name": "../node_modules/core-js/modules/es6.set.js"
+          "id": "../node_modules/core-js/modules/es6.map.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.map.js",
+          "name": "../node_modules/core-js/modules/es6.map.js"
         }
       ],
       "failed": false,
@@ -30283,9 +30274,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
-      "issuerId": "../node_modules/core-js/fn/array/flat-map.js",
-      "issuerName": "../node_modules/core-js/fn/array/flat-map.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
+      "issuerId": "../node_modules/core-js/fn/array/includes.js",
+      "issuerName": "../node_modules/core-js/fn/array/includes.js",
       "issuerPath": [
         {
           "id": 0,
@@ -30303,9 +30294,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/array/flat-map.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
-          "name": "../node_modules/core-js/fn/array/flat-map.js"
+          "id": "../node_modules/core-js/fn/array/includes.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
+          "name": "../node_modules/core-js/fn/array/includes.js"
         }
       ],
       "failed": false,
@@ -30513,9 +30504,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.of.js",
-      "issuerId": "../node_modules/core-js/modules/es6.array.of.js",
-      "issuerName": "../node_modules/core-js/modules/es6.array.of.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.from.js",
+      "issuerId": "../node_modules/core-js/modules/es6.array.from.js",
+      "issuerName": "../node_modules/core-js/modules/es6.array.from.js",
       "issuerPath": [
         {
           "id": 0,
@@ -30538,9 +30529,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.array.of.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.of.js",
-          "name": "../node_modules/core-js/modules/es6.array.of.js"
+          "id": "../node_modules/core-js/modules/es6.array.from.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.array.from.js",
+          "name": "../node_modules/core-js/modules/es6.array.from.js"
         }
       ],
       "failed": false,
@@ -30888,14 +30879,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/string/trim-start.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-start.js",
-          "name": "../node_modules/core-js/fn/string/trim-start.js"
+          "id": "../node_modules/core-js/fn/string/trim-end.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-end.js",
+          "name": "../node_modules/core-js/fn/string/trim-end.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.string.trim-left.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-          "name": "../node_modules/core-js/modules/es7.string.trim-left.js"
+          "id": "../node_modules/core-js/modules/es7.string.trim-right.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+          "name": "../node_modules/core-js/modules/es7.string.trim-right.js"
         },
         {
           "id": "../node_modules/core-js/modules/_string-trim.js",
@@ -31322,9 +31313,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-create.js",
-      "issuerId": "../node_modules/core-js/modules/_object-create.js",
-      "issuerName": "../node_modules/core-js/modules/_object-create.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-gopn.js",
+      "issuerId": "../node_modules/core-js/modules/_object-gopn.js",
+      "issuerName": "../node_modules/core-js/modules/_object-gopn.js",
       "issuerPath": [
         {
           "id": 0,
@@ -31347,14 +31338,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.object.create.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.create.js",
-          "name": "../node_modules/core-js/modules/es6.object.create.js"
+          "id": "../node_modules/core-js/modules/es6.number.constructor.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.constructor.js",
+          "name": "../node_modules/core-js/modules/es6.number.constructor.js"
         },
         {
-          "id": "../node_modules/core-js/modules/_object-create.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-create.js",
-          "name": "../node_modules/core-js/modules/_object-create.js"
+          "id": "../node_modules/core-js/modules/_object-gopn.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_object-gopn.js",
+          "name": "../node_modules/core-js/modules/_object-gopn.js"
         }
       ],
       "failed": false,
@@ -31473,9 +31464,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
-      "issuerId": "../node_modules/core-js/modules/es7.array.flat-map.js",
-      "issuerName": "../node_modules/core-js/modules/es7.array.flat-map.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
+      "issuerId": "../node_modules/core-js/modules/es7.array.includes.js",
+      "issuerName": "../node_modules/core-js/modules/es7.array.includes.js",
       "issuerPath": [
         {
           "id": 0,
@@ -31493,14 +31484,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/array/flat-map.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
-          "name": "../node_modules/core-js/fn/array/flat-map.js"
+          "id": "../node_modules/core-js/fn/array/includes.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
+          "name": "../node_modules/core-js/fn/array/includes.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.array.flat-map.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
-          "name": "../node_modules/core-js/modules/es7.array.flat-map.js"
+          "id": "../node_modules/core-js/modules/es7.array.includes.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
+          "name": "../node_modules/core-js/modules/es7.array.includes.js"
         }
       ],
       "failed": false,
@@ -32437,9 +32428,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.includes.js",
-      "issuerId": "../node_modules/core-js/modules/es6.string.includes.js",
-      "issuerName": "../node_modules/core-js/modules/es6.string.includes.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
+      "issuerId": "../node_modules/core-js/modules/es6.string.ends-with.js",
+      "issuerName": "../node_modules/core-js/modules/es6.string.ends-with.js",
       "issuerPath": [
         {
           "id": 0,
@@ -32462,9 +32453,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.string.includes.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.includes.js",
-          "name": "../node_modules/core-js/modules/es6.string.includes.js"
+          "id": "../node_modules/core-js/modules/es6.string.ends-with.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
+          "name": "../node_modules/core-js/modules/es6.string.ends-with.js"
         }
       ],
       "failed": false,
@@ -32844,9 +32835,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-      "issuerId": "../node_modules/core-js/modules/es6.regexp.search.js",
-      "issuerName": "../node_modules/core-js/modules/es6.regexp.search.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+      "issuerId": "../node_modules/core-js/modules/es6.regexp.split.js",
+      "issuerName": "../node_modules/core-js/modules/es6.regexp.split.js",
       "issuerPath": [
         {
           "id": 0,
@@ -32869,9 +32860,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.regexp.search.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-          "name": "../node_modules/core-js/modules/es6.regexp.search.js"
+          "id": "../node_modules/core-js/modules/es6.regexp.split.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+          "name": "../node_modules/core-js/modules/es6.regexp.split.js"
         }
       ],
       "failed": false,
@@ -33250,9 +33241,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-      "issuerId": "../node_modules/core-js/modules/es7.promise.finally.js",
-      "issuerName": "../node_modules/core-js/modules/es7.promise.finally.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.symbol.js",
+      "issuerId": "../node_modules/core-js/modules/es6.symbol.js",
+      "issuerName": "../node_modules/core-js/modules/es6.symbol.js",
       "issuerPath": [
         {
           "id": 0,
@@ -33270,14 +33261,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/promise/finally.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/promise/finally.js",
-          "name": "../node_modules/core-js/fn/promise/finally.js"
+          "id": "../node_modules/core-js/es6/index.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/es6/index.js",
+          "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.promise.finally.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-          "name": "../node_modules/core-js/modules/es7.promise.finally.js"
+          "id": "../node_modules/core-js/modules/es6.symbol.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.symbol.js",
+          "name": "../node_modules/core-js/modules/es6.symbol.js"
         }
       ],
       "failed": false,
@@ -33758,14 +33749,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/array/includes.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/includes.js",
-          "name": "../node_modules/core-js/fn/array/includes.js"
+          "id": "../node_modules/core-js/fn/array/flat-map.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/array/flat-map.js",
+          "name": "../node_modules/core-js/fn/array/flat-map.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.array.includes.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.includes.js",
-          "name": "../node_modules/core-js/modules/es7.array.includes.js"
+          "id": "../node_modules/core-js/modules/es7.array.flat-map.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.array.flat-map.js",
+          "name": "../node_modules/core-js/modules/es7.array.flat-map.js"
         },
         {
           "id": "../node_modules/core-js/modules/_add-to-unscopables.js",
@@ -34509,9 +34500,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-safe-integer.js",
-      "issuerId": "../node_modules/core-js/modules/es6.number.is-safe-integer.js",
-      "issuerName": "../node_modules/core-js/modules/es6.number.is-safe-integer.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-integer.js",
+      "issuerId": "../node_modules/core-js/modules/es6.number.is-integer.js",
+      "issuerName": "../node_modules/core-js/modules/es6.number.is-integer.js",
       "issuerPath": [
         {
           "id": 0,
@@ -34534,9 +34525,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.number.is-safe-integer.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-safe-integer.js",
-          "name": "../node_modules/core-js/modules/es6.number.is-safe-integer.js"
+          "id": "../node_modules/core-js/modules/es6.number.is-integer.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.number.is-integer.js",
+          "name": "../node_modules/core-js/modules/es6.number.is-integer.js"
         }
       ],
       "failed": false,
@@ -34932,9 +34923,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.string.ends-with.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
-          "name": "../node_modules/core-js/modules/es6.string.ends-with.js"
+          "id": "../node_modules/core-js/modules/es6.string.starts-with.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.starts-with.js",
+          "name": "../node_modules/core-js/modules/es6.string.starts-with.js"
         },
         {
           "id": "../node_modules/core-js/modules/_string-context.js",
@@ -35924,9 +35915,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.seal.js",
-      "issuerId": "../node_modules/core-js/modules/es6.object.seal.js",
-      "issuerName": "../node_modules/core-js/modules/es6.object.seal.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.prevent-extensions.js",
+      "issuerId": "../node_modules/core-js/modules/es6.object.prevent-extensions.js",
+      "issuerName": "../node_modules/core-js/modules/es6.object.prevent-extensions.js",
       "issuerPath": [
         {
           "id": 0,
@@ -35949,9 +35940,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.object.seal.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.seal.js",
-          "name": "../node_modules/core-js/modules/es6.object.seal.js"
+          "id": "../node_modules/core-js/modules/es6.object.prevent-extensions.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.object.prevent-extensions.js",
+          "name": "../node_modules/core-js/modules/es6.object.prevent-extensions.js"
         }
       ],
       "failed": false,
@@ -37664,9 +37655,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.values.js",
-      "issuerId": "../node_modules/core-js/modules/es7.object.values.js",
-      "issuerName": "../node_modules/core-js/modules/es7.object.values.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.entries.js",
+      "issuerId": "../node_modules/core-js/modules/es7.object.entries.js",
+      "issuerName": "../node_modules/core-js/modules/es7.object.entries.js",
       "issuerPath": [
         {
           "id": 0,
@@ -37684,14 +37675,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/object/values.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/object/values.js",
-          "name": "../node_modules/core-js/fn/object/values.js"
+          "id": "../node_modules/core-js/fn/object/entries.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/object/entries.js",
+          "name": "../node_modules/core-js/fn/object/entries.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.object.values.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.values.js",
-          "name": "../node_modules/core-js/modules/es7.object.values.js"
+          "id": "../node_modules/core-js/modules/es7.object.entries.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.object.entries.js",
+          "name": "../node_modules/core-js/modules/es7.object.entries.js"
         }
       ],
       "failed": false,
@@ -38020,9 +38011,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-      "issuerId": "../node_modules/core-js/modules/es7.promise.finally.js",
-      "issuerName": "../node_modules/core-js/modules/es7.promise.finally.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+      "issuerId": "../node_modules/core-js/modules/es6.promise.js",
+      "issuerName": "../node_modules/core-js/modules/es6.promise.js",
       "issuerPath": [
         {
           "id": 0,
@@ -38045,9 +38036,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/fn/promise/finally.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.promise.finally.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-          "name": "../node_modules/core-js/modules/es7.promise.finally.js"
+          "id": "../node_modules/core-js/modules/es6.promise.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+          "name": "../node_modules/core-js/modules/es6.promise.js"
         }
       ],
       "failed": false,
@@ -38492,9 +38483,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-      "issuerId": "../node_modules/core-js/modules/es6.regexp.search.js",
-      "issuerName": "../node_modules/core-js/modules/es6.regexp.search.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+      "issuerId": "../node_modules/core-js/modules/es6.regexp.split.js",
+      "issuerName": "../node_modules/core-js/modules/es6.regexp.split.js",
       "issuerPath": [
         {
           "id": 0,
@@ -38517,9 +38508,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.regexp.search.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.search.js",
-          "name": "../node_modules/core-js/modules/es6.regexp.search.js"
+          "id": "../node_modules/core-js/modules/es6.regexp.split.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.regexp.split.js",
+          "name": "../node_modules/core-js/modules/es6.regexp.split.js"
         }
       ],
       "failed": false,
@@ -39221,9 +39212,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-      "issuerId": "../node_modules/core-js/modules/es7.promise.finally.js",
-      "issuerName": "../node_modules/core-js/modules/es7.promise.finally.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+      "issuerId": "../node_modules/core-js/modules/es6.promise.js",
+      "issuerName": "../node_modules/core-js/modules/es6.promise.js",
       "issuerPath": [
         {
           "id": 0,
@@ -39246,9 +39237,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/fn/promise/finally.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.promise.finally.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.promise.finally.js",
-          "name": "../node_modules/core-js/modules/es7.promise.finally.js"
+          "id": "../node_modules/core-js/modules/es6.promise.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.promise.js",
+          "name": "../node_modules/core-js/modules/es6.promise.js"
         }
       ],
       "failed": false,
@@ -39557,9 +39548,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
-      "issuerId": "../node_modules/core-js/modules/es6.string.ends-with.js",
-      "issuerName": "../node_modules/core-js/modules/es6.string.ends-with.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.starts-with.js",
+      "issuerId": "../node_modules/core-js/modules/es6.string.starts-with.js",
+      "issuerName": "../node_modules/core-js/modules/es6.string.starts-with.js",
       "issuerPath": [
         {
           "id": 0,
@@ -39582,9 +39573,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.string.ends-with.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.ends-with.js",
-          "name": "../node_modules/core-js/modules/es6.string.ends-with.js"
+          "id": "../node_modules/core-js/modules/es6.string.starts-with.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.starts-with.js",
+          "name": "../node_modules/core-js/modules/es6.string.starts-with.js"
         }
       ],
       "failed": false,
@@ -39639,9 +39630,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.blink.js",
-      "issuerId": "../node_modules/core-js/modules/es6.string.blink.js",
-      "issuerName": "../node_modules/core-js/modules/es6.string.blink.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.bold.js",
+      "issuerId": "../node_modules/core-js/modules/es6.string.bold.js",
+      "issuerName": "../node_modules/core-js/modules/es6.string.bold.js",
       "issuerPath": [
         {
           "id": 0,
@@ -39664,9 +39655,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.string.blink.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.blink.js",
-          "name": "../node_modules/core-js/modules/es6.string.blink.js"
+          "id": "../node_modules/core-js/modules/es6.string.bold.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.string.bold.js",
+          "name": "../node_modules/core-js/modules/es6.string.bold.js"
         }
       ],
       "failed": false,
@@ -39811,9 +39802,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-end.js",
-      "issuerId": "../node_modules/core-js/modules/es7.string.pad-end.js",
-      "issuerName": "../node_modules/core-js/modules/es7.string.pad-end.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-start.js",
+      "issuerId": "../node_modules/core-js/modules/es7.string.pad-start.js",
+      "issuerName": "../node_modules/core-js/modules/es7.string.pad-start.js",
       "issuerPath": [
         {
           "id": 0,
@@ -39831,14 +39822,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/string/pad-end.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/pad-end.js",
-          "name": "../node_modules/core-js/fn/string/pad-end.js"
+          "id": "../node_modules/core-js/fn/string/pad-start.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/pad-start.js",
+          "name": "../node_modules/core-js/fn/string/pad-start.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.string.pad-end.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-end.js",
-          "name": "../node_modules/core-js/modules/es7.string.pad-end.js"
+          "id": "../node_modules/core-js/modules/es7.string.pad-start.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.pad-start.js",
+          "name": "../node_modules/core-js/modules/es7.string.pad-start.js"
         }
       ],
       "failed": false,
@@ -39966,9 +39957,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-      "issuerId": "../node_modules/core-js/modules/es7.string.trim-left.js",
-      "issuerName": "../node_modules/core-js/modules/es7.string.trim-left.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+      "issuerId": "../node_modules/core-js/modules/es7.string.trim-right.js",
+      "issuerName": "../node_modules/core-js/modules/es7.string.trim-right.js",
       "issuerPath": [
         {
           "id": 0,
@@ -39986,14 +39977,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/string/trim-start.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-start.js",
-          "name": "../node_modules/core-js/fn/string/trim-start.js"
+          "id": "../node_modules/core-js/fn/string/trim-end.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-end.js",
+          "name": "../node_modules/core-js/fn/string/trim-end.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.string.trim-left.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-          "name": "../node_modules/core-js/modules/es7.string.trim-left.js"
+          "id": "../node_modules/core-js/modules/es7.string.trim-right.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+          "name": "../node_modules/core-js/modules/es7.string.trim-right.js"
         }
       ],
       "failed": false,
@@ -40095,14 +40086,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/@babel/polyfill/lib/noConflict.js"
         },
         {
-          "id": "../node_modules/core-js/fn/string/trim-start.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-start.js",
-          "name": "../node_modules/core-js/fn/string/trim-start.js"
+          "id": "../node_modules/core-js/fn/string/trim-end.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/fn/string/trim-end.js",
+          "name": "../node_modules/core-js/fn/string/trim-end.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es7.string.trim-left.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-left.js",
-          "name": "../node_modules/core-js/modules/es7.string.trim-left.js"
+          "id": "../node_modules/core-js/modules/es7.string.trim-right.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es7.string.trim-right.js",
+          "name": "../node_modules/core-js/modules/es7.string.trim-right.js"
         },
         {
           "id": "../node_modules/core-js/modules/_string-trim.js",
@@ -40362,9 +40353,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-buffer.js",
-      "issuerId": "../node_modules/core-js/modules/_typed-buffer.js",
-      "issuerName": "../node_modules/core-js/modules/_typed-buffer.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-array.js",
+      "issuerId": "../node_modules/core-js/modules/_typed-array.js",
+      "issuerName": "../node_modules/core-js/modules/_typed-array.js",
       "issuerPath": [
         {
           "id": 0,
@@ -40387,14 +40378,14 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.typed.data-view.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-          "name": "../node_modules/core-js/modules/es6.typed.data-view.js"
+          "id": "../node_modules/core-js/modules/es6.typed.float32-array.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float32-array.js",
+          "name": "../node_modules/core-js/modules/es6.typed.float32-array.js"
         },
         {
-          "id": "../node_modules/core-js/modules/_typed-buffer.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-buffer.js",
-          "name": "../node_modules/core-js/modules/_typed-buffer.js"
+          "id": "../node_modules/core-js/modules/_typed-array.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/_typed-array.js",
+          "name": "../node_modules/core-js/modules/_typed-array.js"
         }
       ],
       "failed": false,
@@ -41318,9 +41309,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float64-array.js",
-      "issuerId": "../node_modules/core-js/modules/es6.typed.float64-array.js",
-      "issuerName": "../node_modules/core-js/modules/es6.typed.float64-array.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float32-array.js",
+      "issuerId": "../node_modules/core-js/modules/es6.typed.float32-array.js",
+      "issuerName": "../node_modules/core-js/modules/es6.typed.float32-array.js",
       "issuerPath": [
         {
           "id": 0,
@@ -41343,9 +41334,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.typed.float64-array.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float64-array.js",
-          "name": "../node_modules/core-js/modules/es6.typed.float64-array.js"
+          "id": "../node_modules/core-js/modules/es6.typed.float32-array.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.float32-array.js",
+          "name": "../node_modules/core-js/modules/es6.typed.float32-array.js"
         }
       ],
       "failed": false,
@@ -41454,9 +41445,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-      "issuerId": "../node_modules/core-js/modules/es6.typed.data-view.js",
-      "issuerName": "../node_modules/core-js/modules/es6.typed.data-view.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+      "issuerId": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+      "issuerName": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
       "issuerPath": [
         {
           "id": 0,
@@ -41479,9 +41470,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.typed.data-view.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-          "name": "../node_modules/core-js/modules/es6.typed.data-view.js"
+          "id": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "name": "../node_modules/core-js/modules/es6.typed.array-buffer.js"
         }
       ],
       "failed": false,
@@ -41536,9 +41527,9 @@ Use Ctrl+C to close it
       "chunks": [
         "vendors~main"
       ],
-      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-      "issuerId": "../node_modules/core-js/modules/es6.typed.data-view.js",
-      "issuerName": "../node_modules/core-js/modules/es6.typed.data-view.js",
+      "issuer": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+      "issuerId": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+      "issuerName": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
       "issuerPath": [
         {
           "id": 0,
@@ -41561,9 +41552,9 @@ Use Ctrl+C to close it
           "name": "../node_modules/core-js/es6/index.js"
         },
         {
-          "id": "../node_modules/core-js/modules/es6.typed.data-view.js",
-          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.data-view.js",
-          "name": "../node_modules/core-js/modules/es6.typed.data-view.js"
+          "id": "../node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "identifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/core-js/modules/es6.typed.array-buffer.js",
+          "name": "../node_modules/core-js/modules/es6.typed.array-buffer.js"
         }
       ],
       "failed": false,
@@ -51557,15 +51548,6 @@ Use Ctrl+C to close it
           "type": "harmony side effect evaluation",
           "userRequest": "jquery",
           "loc": "2:0-23"
-        },
-        {
-          "moduleId": "./index.js",
-          "moduleIdentifier": "/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/babel-loader/lib/index.js??ref--8-0!/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/src/index.js",
-          "module": "./index.js",
-          "moduleName": "./index.js",
-          "type": "harmony import specifier",
-          "userRequest": "jquery",
-          "loc": "13:0-1"
         }
       ],
       "providedExports": null,
@@ -51922,7 +51904,7 @@ Use Ctrl+C to close it
       "name": "./index.js",
       "index": 308,
       "index2": 316,
-      "size": 403,
+      "size": 373,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -51958,7 +51940,7 @@ Use Ctrl+C to close it
       "providedExports": [],
       "optimizationBailout": [],
       "depth": 1,
-      "source": "import Post from './Post';\nimport $ from 'jquery';\nimport { initAnalitics } from './analytics';\nimport json from './assets/json';\nimport Img from './assets/traversing.png';\nimport babel from './babel';\nimport './styles/index.scss';\nvar post = new Post(\"Webpack hero\");\nconsole.log(JSON.stringify(json));\nconsole.log(Img);\nconsole.log(post.toString());\ninitAnalitics();\n$('.title').html(post.toString());"
+      "source": "import Post from './Post';\nimport $ from 'jquery';\nimport { initAnalitics } from './analytics';\nimport json from './assets/json';\nimport Img from './assets/traversing.png';\nimport babel from './babel';\nimport './styles/index.scss';\nvar post = new Post(\"Webpack ALALA1232\");\nconsole.log(JSON.stringify(json));\nconsole.log(Img);\nconsole.log(post.toString());\ninitAnalitics();"
     },
     {
       "id": "./styles/index.scss",
@@ -52017,7 +51999,7 @@ Use Ctrl+C to close it
       "name": "css ../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src!../node_modules/sass-loader/dist/cjs.js!./styles/index.scss",
       "index": 317,
       "index2": 314,
-      "size": 450,
+      "size": 443,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -52148,7 +52130,7 @@ Use Ctrl+C to close it
       "assets": [
         {
           "name": "__child-HtmlWebpackPlugin_0",
-          "size": 4896,
+          "size": 5044,
           "chunks": [
             "HtmlWebpackPlugin_0"
           ],
@@ -52190,14 +52172,14 @@ Use Ctrl+C to close it
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 832,
+          "size": 980,
           "names": [
             "HtmlWebpackPlugin_0"
           ],
           "files": [
             "__child-HtmlWebpackPlugin_0"
           ],
-          "hash": "2858dcde8bb2c80a7e37",
+          "hash": "528533134fbb9d8c4e2e",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -52209,7 +52191,7 @@ Use Ctrl+C to close it
               "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.html",
               "index": 0,
               "index2": 0,
-              "size": 832,
+              "size": 980,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -52239,7 +52221,7 @@ Use Ctrl+C to close it
               "providedExports": null,
               "optimizationBailout": [],
               "depth": 0,
-              "source": "var _ = __non_webpack_require__(\"/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <link rel=\"icon\" href=\"favicon.ico\" type=\"image/ico\">\\n    <title>GoIt Webpack</title>\\n</head>\\n<body>\\n    <header class=\"header\"></header>\\n    <main class=\"main\">\\n        <h1 class=\"title\">Webpack Course</h1>\\n        <ul>\\n            <li>1</li>\\n            <li>2</li>\\n            <li>3</li>\\n        </ul>\\n    </main>\\n    <footer class=\"footer\"></footer>\\n</body>\\n</html>';\nreturn __p\n})();}}"
+              "source": "var _ = __non_webpack_require__(\"/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <link rel=\"icon\" href=\"favicon.ico\" type=\"image/ico\">\\n    <title>GoIt Webpack</title>\\n</head>\\n<body>\\n    <header class=\"header\"></header>\\n    <main class=\"main\">\\n        <h1 class=\"title\">Webpack Course</h1>\\n        <ul>\\n            <li>1</li>\\n            <li>2</li>\\n            <li>3</li>\\n            <li>14</li>\\n            <li>24</li>\\n            <li>34</li>\\n            <li>44</li>\\n        </ul>\\n    </main>\\n    <footer class=\"footer\"></footer>\\n    \\n    <script src=\"./index.js\"></script>\\n\\n</body>\\n</html>';\nreturn __p\n})();}}"
             }
           ],
           "filteredModules": 0,
@@ -52262,7 +52244,7 @@ Use Ctrl+C to close it
           "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.html",
           "index": 0,
           "index2": 0,
-          "size": 832,
+          "size": 980,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -52292,7 +52274,7 @@ Use Ctrl+C to close it
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 0,
-          "source": "var _ = __non_webpack_require__(\"/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <link rel=\"icon\" href=\"favicon.ico\" type=\"image/ico\">\\n    <title>GoIt Webpack</title>\\n</head>\\n<body>\\n    <header class=\"header\"></header>\\n    <main class=\"main\">\\n        <h1 class=\"title\">Webpack Course</h1>\\n        <ul>\\n            <li>1</li>\\n            <li>2</li>\\n            <li>3</li>\\n        </ul>\\n    </main>\\n    <footer class=\"footer\"></footer>\\n</body>\\n</html>';\nreturn __p\n})();}}"
+          "source": "var _ = __non_webpack_require__(\"/Users/evgeniyrogovoy/Desktop/folders/projects/goit/goit-js-course/module-9/webpack-training/node_modules/lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"UTF-8\">\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\n    <link rel=\"icon\" href=\"favicon.ico\" type=\"image/ico\">\\n    <title>GoIt Webpack</title>\\n</head>\\n<body>\\n    <header class=\"header\"></header>\\n    <main class=\"main\">\\n        <h1 class=\"title\">Webpack Course</h1>\\n        <ul>\\n            <li>1</li>\\n            <li>2</li>\\n            <li>3</li>\\n            <li>14</li>\\n            <li>24</li>\\n            <li>34</li>\\n            <li>44</li>\\n        </ul>\\n    </main>\\n    <footer class=\"footer\"></footer>\\n    \\n    <script src=\"./index.js\"></script>\\n\\n</body>\\n</html>';\nreturn __p\n})();}}"
         }
       ],
       "filteredModules": 0,
@@ -52344,14 +52326,14 @@ Use Ctrl+C to close it
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 11461,
+          "size": 11454,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "7735a44909dfaf6243a7",
+          "hash": "61ed5b29ff1c281e8b43",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -52418,7 +52400,7 @@ Use Ctrl+C to close it
               "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src!../node_modules/sass-loader/dist/cjs.js!./styles/index.scss",
               "index": 0,
               "index2": 4,
-              "size": 1251,
+              "size": 1244,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -52450,7 +52432,7 @@ Use Ctrl+C to close it
               ],
               "optimizationBailout": [],
               "depth": 0,
-              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nimport ___CSS_LOADER_AT_RULE_IMPORT_0___ from \"-!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css/normalize.css\";\nimport ___CSS_LOADER_GET_URL_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/getUrl.js\";\nimport ___CSS_LOADER_URL_IMPORT_0___ from \"../assets/traversing.png\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n___CSS_LOADER_EXPORT___.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n  font-family: \\\"Roboto\\\";\\n  src: \\\"../assets/fonts/Roboto/Roboto-Regular.ttf\\\" format(\\\"truetype\\\");\\n}\\n* {\\n  box-sizing: border-box;\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nbody {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n}\\n\\n.header {\\n  height: 10vh;\\n  background-color: greenyellow;\\n}\\n\\n.footer {\\n  height: 10vh;\\n  background-color: black;\\n}\\n\\n.main {\\n  height: 80vh;\\n  background-color: gray;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+              "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nimport ___CSS_LOADER_AT_RULE_IMPORT_0___ from \"-!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css/normalize.css\";\nimport ___CSS_LOADER_GET_URL_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/getUrl.js\";\nimport ___CSS_LOADER_URL_IMPORT_0___ from \"../assets/traversing.png\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n___CSS_LOADER_EXPORT___.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n  font-family: \\\"Roboto\\\";\\n  src: \\\"../assets/fonts/Roboto/Roboto-Regular.ttf\\\" format(\\\"truetype\\\");\\n}\\n* {\\n  box-sizing: border-box;\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nbody {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n}\\n\\n.header {\\n  height: 20vh;\\n  background-color: green;\\n}\\n\\n.footer {\\n  height: 20vh;\\n  background-color: blue;\\n}\\n\\n.main {\\n  height: 60vh;\\n  background-color: gray;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
             },
             {
               "id": "../node_modules/css-loader/dist/runtime/api.js",
@@ -52707,7 +52689,7 @@ Use Ctrl+C to close it
           "name": "../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/src!../node_modules/sass-loader/dist/cjs.js!./styles/index.scss",
           "index": 0,
           "index2": 4,
-          "size": 1251,
+          "size": 1244,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -52739,7 +52721,7 @@ Use Ctrl+C to close it
           ],
           "optimizationBailout": [],
           "depth": 0,
-          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nimport ___CSS_LOADER_AT_RULE_IMPORT_0___ from \"-!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css/normalize.css\";\nimport ___CSS_LOADER_GET_URL_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/getUrl.js\";\nimport ___CSS_LOADER_URL_IMPORT_0___ from \"../assets/traversing.png\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n___CSS_LOADER_EXPORT___.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n  font-family: \\\"Roboto\\\";\\n  src: \\\"../assets/fonts/Roboto/Roboto-Regular.ttf\\\" format(\\\"truetype\\\");\\n}\\n* {\\n  box-sizing: border-box;\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nbody {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n}\\n\\n.header {\\n  height: 10vh;\\n  background-color: greenyellow;\\n}\\n\\n.footer {\\n  height: 10vh;\\n  background-color: black;\\n}\\n\\n.main {\\n  height: 80vh;\\n  background-color: gray;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
+          "source": "// Imports\nimport ___CSS_LOADER_API_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/api.js\";\nimport ___CSS_LOADER_AT_RULE_IMPORT_0___ from \"-!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css/normalize.css\";\nimport ___CSS_LOADER_GET_URL_IMPORT___ from \"../../node_modules/css-loader/dist/runtime/getUrl.js\";\nimport ___CSS_LOADER_URL_IMPORT_0___ from \"../assets/traversing.png\";\nvar ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);\n___CSS_LOADER_EXPORT___.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"@font-face {\\n  font-family: \\\"Roboto\\\";\\n  src: \\\"../assets/fonts/Roboto/Roboto-Regular.ttf\\\" format(\\\"truetype\\\");\\n}\\n* {\\n  box-sizing: border-box;\\n  padding: 0;\\n  margin: 0;\\n}\\n\\nbody {\\n  font-family: \\\"Roboto\\\", sans-serif;\\n}\\n\\n.header {\\n  height: 20vh;\\n  background-color: green;\\n}\\n\\n.footer {\\n  height: 20vh;\\n  background-color: blue;\\n}\\n\\n.main {\\n  height: 60vh;\\n  background-color: gray;\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n}\", \"\"]);\n// Exports\nexport default ___CSS_LOADER_EXPORT___;\n"
         },
         {
           "id": "../node_modules/css-loader/dist/runtime/api.js",
