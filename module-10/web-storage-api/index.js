@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.querySelector('.button');
     const input = document.querySelector('.input');
-    const list = document.querySelector('.list');
+    const list = document.querySelector('.todo-list');
 
     const ITEMS_LS_KEY = 'todos';
 
@@ -22,9 +22,52 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem(ITEMS_LS_KEY, JSON.stringify(newTodos));
     };
 
+    const onCompleteClickHandler = (event) => {
+        const { target } = event;
+        const li = target.closest('.todo-list__item');
+
+        li.classList.add('todo-list__item--completed');
+
+        target.remove();
+    };
+
+    const onRemoveClickHandler = (event) => {
+        const { target } = event;
+        const li = target.closest('.todo-list__item');
+
+        li.remove();
+    }
+
     const createListItem = (value) => {
         const li = document.createElement('li');
-        li.textContent = value;
+
+        const textSpan = document.createElement('span');
+        const actions = document.createElement('div');
+        const completeButton = document.createElement('button');
+        const removeButton = document.createElement('button');
+
+        li.className = 'todo-list__item';
+
+        textSpan.className = 'todo-list__item-text';
+        textSpan.textContent = value;
+
+        actions.className = 'todo-list__item-actions';
+        
+        completeButton.className = 'todo-list__item-action todo-list__item-action--complete';
+        completeButton.textContent = 'OK';
+
+        removeButton.className = 'todo-list__item-action todo-list__item-action--remove';
+        removeButton.textContent = 'X';
+
+        completeButton.addEventListener('click', onCompleteClickHandler);
+        removeButton.addEventListener('click', onRemoveClickHandler);
+
+        actions.appendChild(completeButton);
+        actions.appendChild(removeButton);
+
+        li.appendChild(textSpan);
+        li.appendChild(actions);
+
         return li;
     }
 
@@ -35,6 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newListItem = createListItem(value);
 
         list.appendChild(newListItem);
+
         addItemToLocalStorage(value);        
     };
 

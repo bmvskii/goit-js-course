@@ -24,7 +24,8 @@
     - Введение
     - Поддерживает такие типы данных: 
         string, number, object, array, boolean, null
-    - Все ключи и значения должны быть в " " 
+    - Все ключи должны быть в " " 
+    
     - JSON.parse
     - JSON.strignify
 
