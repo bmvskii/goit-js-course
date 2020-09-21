@@ -18,14 +18,14 @@ const cardContent = [
     { 
         // url: 'https://picsum.photos/500/500',
         hasMoney: false,
-     title: 'Title 3', text: 'Some text', person: [
+        title: 'Title 3', text: 'Some text', person: [
         "Alan", "Delon", "123"
     ]},
     { 
         // url: 'https://picsum.photos/400/400',
         hasMoney: true,
         title: 'Title 4', text: 'Some text', person: [
-        "Alan", "Delon", "123"
+        "Alan", "Delon"
     ]},
     { 
         // url: 'https://picsum.photos/700/700',

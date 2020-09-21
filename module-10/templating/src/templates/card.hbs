@@ -4,8 +4,8 @@
     <p class="card__text">{{text}}</p>
     
     <ul>
-        {{#each person}}
-            <li>{{@index}} {{this}}</li>
+        {{#each person as |people|}}
+            <li>{{@index}} {{people}}</li>
         {{/each}}
     </ul>
 
