@@ -5,21 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const updateElement = ({ element, value }) => {
         element.classList.remove('updated');
-        element.classList.add('removed')
+        element.classList.add('removed');
 
         setTimeout(() => { 
             element.classList.remove('removed');
             element.classList.add('updated');
 
             element.innerHTML = formatValue(value);
-        }, 200);
+        }, 300);
     } 
 
     const runClock = () => {
-        let prevValue = new Date();
+        let prevValue = new Date(); // 10/10/30
 
         setInterval(() => {
-            const now = new Date();
+            const now = new Date(); // 10/10/40
             
             const minutes = now.getMinutes();
             const hours = now.getHours();
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 updateElement(updatedData['HOURS']);
             }
     
-            if (prevValue.getSeconds() !== now.getSeconds()) {
+            if (prevValue.getSeconds() !== now.getSeconds()) { 
                 updateElement(updatedData['SECONDS']);
             }
             
