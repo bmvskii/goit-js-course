@@ -4,5 +4,4 @@ const object = {
 }
 
 console.log(object);
-
 console.log([1,2,3]);

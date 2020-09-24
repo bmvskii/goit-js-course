@@ -19,8 +19,8 @@
 // console.log(timeoutID);
 // console.log(timeoutID2);
 
-// // clearTimeout(timeoutID2);
-// // clearTimeout(timeoutID);
+// clearTimeout(timeoutID2);
+// clearTimeout(timeoutID);
 
 // console.log("333333");
 
