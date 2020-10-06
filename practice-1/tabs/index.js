@@ -1,3 +1,5 @@
+
+
 const callback = () => {
     const tabsRef = document.querySelector('.tabs');
     const tabsContentRef = document.querySelector('.tabs-content');
@@ -9,11 +11,6 @@ const callback = () => {
         const newActiveTabLiRef = target.closest('.tab');
         const activeTabContentRef = tabsContentRef.querySelector('.tab-content--active');
         let newActiveTabLiIndex;
-
-        // console.log(tabsRef.children);
-
-        // console.log(Array.from(tabsRef.children));
-        // console.log([...tabsRef.children]);
 
         Array.from(tabsRef.children).forEach((item, index) => {
             if (item === newActiveTabLiRef) {
