@@ -5,12 +5,15 @@ import NoteTemplate from './templates/note.hbs';
 import NoteData from './scripts/data';
 
 const ls = new LocalStorage();
+
 const NOTES_KEY = 'notes';
+const THEME_KEY = 'currentTheme';
 
 const notesWrapperRef = document.querySelector('.notes');
 const formInputRef = document.querySelector('.form__input');
 const formTextareaRef = document.querySelector('.form__textarea');
 const formButtonRef = document.querySelector('.form__button');
+const themesWrapperRef = document.querySelector('.themes');
 
 const addNoteToLocalStorage = (noteInfo) => {
     if (ls.has(NOTES_KEY)) {
@@ -29,7 +32,7 @@ const addNoteToLocalStorage = (noteInfo) => {
 
 const createNote = (noteInfo, shouldAddToLs = true) => {
     const renderedTemplate = NoteTemplate(noteInfo);
-    notesWrapperRef.innerHTML += renderedTemplate;
+    notesWrapperRef.insertAdjacentHTML('beforeend', renderedTemplate);
 
     if (shouldAddToLs) {
         addNoteToLocalStorage(noteInfo);
@@ -72,14 +75,50 @@ const removeNoteClickHandler = (event) => {
 
         ls.set(NOTES_KEY, filteredNotes);
 
-        note.remove();
+        note.classList.add('note--removed');
+
+        setTimeout(() => note.remove(), 600);
+    }
+};
+
+const removeThemeFromBody = () => {
+    const bodyClassList = document.body.classList;
+    for (const theme in themes) {
+        if (bodyClassList.contains(themes[theme])) {
+            bodyClassList.remove(themes[theme]);
+            break;
+        }
+    }
+}
+
+const themeChangeHandler = (event) => {
+    const { target } = event;
+
+    if (target.classList.contains('theme-button')) {
+        const { theme } = target.dataset;
+        const activeThemeClass = themes[theme];
+        
+        removeThemeFromBody();
+        ls.set(THEME_KEY, activeThemeClass);
+        document.body.classList.add(activeThemeClass);
+    }
+};
+
+const checkActiveThemeInLocalStorage = () => {
+    if (ls.has(THEME_KEY)) {
+        const activeTheme = ls.get(THEME_KEY);
+        
+        removeThemeFromBody();
+        document.body.classList.add(activeTheme);
     }
 };
 
 checkNotesInLocalStorage();
+checkActiveThemeInLocalStorage();
 
 formButtonRef.addEventListener('click', addNoteClickHandler);
 notesWrapperRef.addEventListener('click', removeNoteClickHandler);
+themesWrapperRef.addEventListener('click', themeChangeHandler);
 
 // ВАРИАНТЫ ГЕНЕРИРОВАНИЯ КАРТОЧЕК В JS
 

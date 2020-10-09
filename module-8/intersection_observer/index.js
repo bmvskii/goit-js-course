@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
       };
 
       const elements = document.querySelectorAll('.entry');
+
       const onEntry = (entries, observer) => {
         entries.forEach(entry => {
             const { isIntersecting, target } = entry;
