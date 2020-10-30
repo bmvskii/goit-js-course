@@ -1,0 +1,131 @@
+$black: #191414;
+$green: #1DB954;
+$white: white;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  background-color: $black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $white;
+  height: 10vh;
+}
+
+blockquote::before {
+  content: open-quote;
+}
+
+blockquote::after {
+  content: close-quote;
+}
+
+blockquote {
+  quotes: "“" "”" "‘" "’";
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.passenger {
+
+}
+
+.airline {
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+  border-radius: 4px;
+  padding: 20px 30px;
+
+  &--active .airline__content {
+    max-height: 500px;
+    opacity: 1;
+    z-index: 1;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  &__slogan {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+
+    &-left {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-right {
+
+    }
+
+    
+  }
+
+  &__logo {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    &-wrapper {
+      overflow: hidden;
+
+      width: 200px;
+      height: 200px;
+
+      box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+    }
+  }
+
+  &__content {
+    max-height: 0px;
+    opacity: 0;
+    transition: .3s ease;
+    z-index: -1;
+  }
+
+  &__list {
+    list-style: none;
+
+    &-item {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.airlines {
+  display: flex;
+  flex-direction: column;
+}
+

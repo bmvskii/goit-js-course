@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.person {
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px 2px rgba(0,0,0,.3);
+  
+  width: calc(25% - 2rem);
+  margin: 1rem;
+}
+
+.load-more {
+  display: block;
+  padding: 20px 30px;
+  background-color: cyan;
+  color: black;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.person__photo {
+  height: 10rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.person__name {
+  font-weight: bold;
+}
+
+.person__gender {
+  margin-top: 1rem;
+}
+
+.person__height {
+  margin-top: 1rem;
+}
+
+.planet {
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+
+  &s {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  &__population,
+  &__climate {
+    margin: 10px 0;
+  }
+
+  &__name {
+    text-transform: uppercase;
+  }
+}

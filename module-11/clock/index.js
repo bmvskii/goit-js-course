@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000);
     }
 
+    // value.padStart(2, '0')
     const formatValue = (value) => value.toString().length === 2 ? value : `0${value}`;
 
     const initRefsValues = () => {

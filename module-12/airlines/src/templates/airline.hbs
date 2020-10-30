@@ -1,0 +1,26 @@
+<div class="airline">
+    <div class="airline__header">
+        <div class="airline__header-left">
+            <h2 class="airline__name">{{ name }}</h2>
+            <p class="airline__country">{{ country }}</p>
+        </div>
+        <div class="airline__header-right">
+            <div class="airline__logo-wrapper">
+                <img class="airline__logo" src="{{ logo }}" alt=`${name} Airline logo`>
+            </div>
+        </div>
+    </div>
+    <div class="airline__content">
+        <blockquote class="airline__slogan">{{ slogan }}</blockquote>
+        <ul class="airline__list">
+            <li class="airline__list-item">
+                <span class="airline__data-title">Website:</span>
+                <a href="#" class="airline__website">{{ website }}</a>
+            </li>
+             <li class="airline__list-item">
+                <span class="airline__data-title">Established:</span>
+                <p class="airline__data">{{ established }}</p>
+            </li>
+        </ul>
+    </div>
+</div>
