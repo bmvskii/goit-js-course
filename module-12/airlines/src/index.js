@@ -13,7 +13,7 @@ const renderAirlines = data => {
 };
 
 AirlineService.getAllAirlines()
-  .then(Response.prototype.json)
+  .then(res => res.json())
   .then(renderAirlines)
   .catch(console.log);
 

@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  
+  height: 10vh;
+}
+
+.action {
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: $white;
+  cursor: pointer;
+  font-weight: bold;
+
+  &:not(:last-child) {
+      margin-right: 10px;
+  }
+
+  &--sign-in {
+    &:hover {
+      background-color: $green;
+    }
+  }
+
+  &--register {
+    &:hover {
+      background-color: yellow;
+    }
+  }
+
+  &--sign-out {
+    display: none;
+    &:hover {
+      background-color: tomato;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>App</title>
+  </head>
+
+  <body>
+    <header class="header container">
+      <h1 class="title">Marketplace App</h1>
+      <div class="actions">
+        <button class="action action--register">Зарегистрироваться</button>
+        <button class="action action--sign-in">Войти</button>
+        <button class="action action--sign-out">Выйти</button>
+      </div>
+    </header>
+    <div class="app container"></div>
+    <div class="modal-wrapper">
+      <form class="form">
+        <div class="form__block">
+          <label for="fullname" class="form__label">Полное имя</label>
+          <input
+            id="fullname"
+            name="fullname"
+            type="text"
+            class="form__input"
+            placeholder="Введите ФИО..."
+          />
+          <span class="form__block-error"></span>
+        </div>
+        <div class="form__block">
+          <label for="form__b" class="form__label">Электронная почта</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            class="form__input"
+            placeholder="Введите email..."
+          />
+          <span class="form__block-error"></span>
+        </div>
+        <div class="form__block">
+          <label for="password" class="form__label">Пароль</label>
+          <input
+            id="password"
+            name="password"
+            type="text"
+            class="form__input"
+            placeholder="Введите пароль..."
+          />
+          <span class="form__block-error"></span>
+        </div>
+        <div class="form__block">
+          <label for="check_password" class="form__label"
+            >Повторить пароль</label
+          >
+          <input
+            id="check_password"
+            name="check_password"
+            type="text"
+            class="form__input"
+            placeholder="Введите повторно пароль..."
+          />
+          <span class="form__block-error"></span>
+        </div>
+        <button class="form__button">Войти</button>
+      </form>
+    </div>
+  </body>
+</html>
