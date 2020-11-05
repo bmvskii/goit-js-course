@@ -1,8 +1,10 @@
 import { Injectable } from '@nestjs/common';
+import productsMock from './products-mock';
+
 
 @Injectable()
 export class ProductsService {
-    products = [];
+    products = [...productsMock];
 
     createProduct(productInfo) {
         this.products.push(productInfo);
@@ -18,7 +20,10 @@ export class ProductsService {
 
     updateProductById(productId, newProductInfo) {
         let product = this.products.find(product => product.id === productId);
-        product = newProductInfo;
+
+        if (product) {
+            product = newProductInfo;
+        }
     }
 
     removeProductById(productId) {

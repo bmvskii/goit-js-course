@@ -9,31 +9,58 @@ import {
   Post,
   Put,
   Req,
+  HttpException,
 } from '@nestjs/common';
-import uuid from 'uuid';
+import { UsersService } from 'src/users/users.service';
+import categoriesMock from './categories-mock';
+import { CategoriesService } from './categories.service';
 
 @Controller('categories')
 export class CategoriesController {
-  categories = [];
+  constructor(
+    private readonly usersService: UsersService,
+    private readonly categoriesService: CategoriesService,
+  ) {}
+
+  categories = [...categoriesMock];
+
+  checkAuthorization(req) {
+    console.log("AUTH:", req.headers.authorization);
+    
+    if (!req.headers.authorization) {
+      throw new HttpException('Not authorized', HttpStatus.BAD_REQUEST);
+    }
+
+    const token = req.headers.authorization.split(' ')[1];
+
+    if (!this.usersService.isAuthorized(token)) {
+      throw new HttpException('Not authorized', HttpStatus.BAD_REQUEST);
+    }
+  }
 
   @Get()
-  getAllCategories() {
+  getAllCategories(@Req() req) {
+    this.checkAuthorization(req);
     return this.categories;
   }
 
   @Post()
-  createCategory(@Body() body) {
-    console.log(body);
+  createCategory(@Req() req, @Body() body) {
+    this.checkAuthorization(req);
   }
 
   @Get(':id')
-  getCategoryById(@Param('id') id) {
+  getCategoryById(@Req() req, @Param('id') id) {
+    this.checkAuthorization(req);
+
     const category = this.categories.find(category => category.id === id);
     return category ? category : HttpCode(HttpStatus.NOT_FOUND);
   }
 
   @Put(':id')
-  updateCategoryById(@Param('id') id, @Body() body) {
+  updateCategoryById(@Req() req, @Param('id') id, @Body() body) {
+    this.checkAuthorization(req);
+
     let category = this.categories.find(category => category.id === id);
 
     if (category) {
@@ -45,14 +72,13 @@ export class CategoriesController {
   }
 
   @Delete(':id')
-  removeCategoryById(@Param('id') id) {
-    let category = this.categories.find(category => category.id === id);
+  removeCategoryById(@Req() req, @Param('id') id) {
+    this.checkAuthorization(req);
 
-    if (category) {
-      this.categories = this.categories.filter(category => category.id === id);
-      return HttpCode(HttpStatus.OK);
-    } else {
-      return HttpCode(HttpStatus.NOT_FOUND);
-    }
+    let category = this.categoriesService.removeCategoryById(id);
+    return HttpCode(HttpStatus.OK);
+    // } else {
+    // return HttpCode(HttpStatus.NOT_FOUND);
+    // }
   }
 }

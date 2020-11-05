@@ -18,7 +18,9 @@ export class UsersController {
   @Post('signout')
   signOut(@Req() req) {
     console.log(req);
-    // const { } = 
+    const token = req.headers.authorization.split(" ")[1];
+    this.usersService.signOut(token);
+
     // return this.usersService.signOut(req);
   }
 }

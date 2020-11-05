@@ -1,6 +1,6 @@
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import JwtTokens from './jwt-tokens-set';
-import { uuid } from 'uuid';
+import { v4 as uuid } from 'uuid';
 
 @Injectable()
 export class UsersService {
@@ -32,10 +32,11 @@ export class UsersService {
       ) !== undefined;
 
     if (hasUser) {
-      throw new HttpException(
-        'User is already existed',
-        HttpStatus.BAD_REQUEST,
-      );
+      return {
+        message: 'User is already existed',
+        statusCode: HttpStatus.BAD_REQUEST,
+      };
+      
     }
 
     let newUser = { ...payload, role: 'user' };
@@ -77,7 +78,9 @@ export class UsersService {
     this.tokens = this.tokens.filter(_token => _token === token);
 
     user.token = token;
-    // user.id = uuid();
+    user.id = uuid();
+
+    console.log("USERS:", this.users);
 
     return {
       data: user,
@@ -88,18 +91,28 @@ export class UsersService {
 
   isAuthorized(token) {
     const isAuthenticated = this.users.find(user => user.token === token);
+    
+    // console.log(this.users);
+
+    // console.log(isAuthenticated);
+
     return isAuthenticated !== undefined;
   }
 
-  signOut(payload) {
-    const { id } = payload;
-    const user = this.users.find(user => user.id === id);
-    if (user && user.token) {
-        this.tokens.push(user.token);
-        this.users = this.users.filter(user => user.id === id);
-        return {
-            statusCode: ""
-        }
+  signOut(token) {
+    const user = this.users.find(user => user.token === token);
+    if (user) {
+      this.tokens.push(user.token);
+      this.users = this.users.filter(user => user.token === token);
+      return {
+        statusCode: HttpStatus.OK,
+        message: 'User successfully logged out',
+      };
+    } else {
+      return {
+        statusCode: HttpStatus.NOT_FOUND,
+        message: 'User isn`t logged in',
+      };
     }
   }
 }

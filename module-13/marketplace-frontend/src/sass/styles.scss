@@ -1,5 +1,8 @@
-@import './vars';
-@import './common';
-@import './modal';
-@import './header';
-@import './form';
+@import './settings/vars';
+@import './settings/common';
+@import './components/modal';
+@import './components/header';
+@import './components/form';
+@import './vendor/pnotify';
+
+@import './components';

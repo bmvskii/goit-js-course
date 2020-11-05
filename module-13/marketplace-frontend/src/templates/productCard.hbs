@@ -1,0 +1,25 @@
+<div class="product" data-id="{{ id }}">
+    <div class="product__actions">
+    {{#if isAdmin }}
+        <button class="product__action product__action--edit">Edit</button>
+        <button class="product__action product__action--delete">X</button>
+    {{else }}
+        <button class="product__action product__action--add">Add to Cart</button>
+    {{/if}}
+
+    </div>
+    <h2 class="product__name">{{ name }}</h2>
+    <div class="product__image-wrapper">
+        <img src="{{ url }}" alt="{{ name }} product" class="product__image">
+    </div>
+    <p class="product__amount">Количество:
+        <span class="value">
+            {{ amount }}
+        </span>
+    </p>
+    <p class="product__category">Категория:
+        <span class="value">
+            {{ categoryName }}
+        </span>
+    </p>
+</div>

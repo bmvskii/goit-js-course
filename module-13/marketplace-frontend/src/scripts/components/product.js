@@ -1,6 +1,22 @@
-import { v4 as uuid } from 'uuid';
+import CategoryCardTemplate from '../../templates/categoryCard.hbs';
 
-export default [
+const renderCategory = data => {
+  return CategoryCardTemplate(data);
+};
+
+const renderCategories = categories => {
+  const categoriesWrapper = document.createElement('div');
+  categoriesWrapper.className = 'categories';
+
+  categories.forEach(category => {
+    const renderedTemplate = renderCategory(category);
+    categoriesWrapper.insertAdjacentHTML('beforeend', renderedTemplate);
+  });
+
+  document.getElementById('app').append(categoriesWrapper);
+};
+
+const categoriesMockData = [
   {
     name: 'Banana',
     categoryId: 1,
@@ -63,3 +79,10 @@ export default [
     amount: 55,
   },
 ];
+
+const data = categoriesMockData.map(category => ({
+  ...category,
+  isAdmin: true,
+}));
+
+renderCategories(data);

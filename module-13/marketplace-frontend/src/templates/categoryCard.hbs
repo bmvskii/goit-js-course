@@ -1,0 +1,18 @@
+<div class="category" data-id="{{ id }}">
+
+    {{#if isAdmin}}
+    <div class="category__header">
+        <h2 class="category__name">{{ name }}</h2>
+        <div class="category__actions">
+            <button class="category__action category__action--edit">Edit</button><button
+                class="category__action category__action--delete">X</button>
+        </div>
+    </div>
+    {{else}}
+        <h2 class="category__name">{{ name }}</h2>
+    {{/if}}
+
+    <div class="category__image-wrapper">
+        <img src="{{ url }}" alt="{{ name }} category" class="category__image">
+    </div>
+</div>

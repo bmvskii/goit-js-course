@@ -3,20 +3,28 @@
   align-items: center;
   justify-content: space-between;
   background-color: $white;
-  
-  height: 10vh;
+
+  min-height: 10vh;
+  padding: 20px;
 }
 
 .action {
   padding: 10px 15px;
-  border: 1px solid black;
   border-radius: 8px;
   background-color: $white;
+  border: 1px solid transparent;
+
   cursor: pointer;
   font-weight: bold;
 
+  transition: 0.3s ease;
+
   &:not(:last-child) {
-      margin-right: 10px;
+    margin-right: 10px;
+  }
+
+  &:hover {
+    border-color: black;
   }
 
   &--sign-in {
@@ -35,6 +43,25 @@
     display: none;
     &:hover {
       background-color: tomato;
+    }
+  }
+}
+
+.user-info-bar {
+  display: flex;
+  flex-direction: column;
+
+  &__data {
+    letter-spacing: 2px;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    .value {
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1px solid black;
     }
   }
 }

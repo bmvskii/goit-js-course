@@ -20,16 +20,25 @@ export class ProductsController {
     private readonly usersService: UsersService,
   ) {}
 
-  @Get()
-  getAllProducts(@Req() req) {
-    const token = null;
+  checkAuthorization(req) {
+    console.log(req.headers);
 
-    console.log(req.headers.authorization);
+    if (!req.headers.authorization) {
+      throw new HttpException('Not authorized', HttpStatus.BAD_REQUEST);
+    }
+
+    const token = req.headers.authorization.split(' ')[1];
+
+    console.log("TOKEN:", token);
 
     if (!this.usersService.isAuthorized(token)) {
       throw new HttpException('Not authorized', HttpStatus.BAD_REQUEST);
     }
+  }
 
+  @Get()
+  getAllProducts(@Req() req) {
+    this.checkAuthorization(req);
     return {
       data: this.productService.getAllProducts(),
       status: HttpStatus.OK,
@@ -37,12 +46,20 @@ export class ProductsController {
   }
 
   @Post()
-  createProduct(@Body() body) {
-    return;
+  createProduct(@Req() req, @Body() body) {
+    this.checkAuthorization(req);
+    const product = this.productService.createProduct(body);
+
+    return {
+      data: product,
+      status: HttpStatus.OK,
+    };
   }
 
   @Get(':id')
-  getProductById(@Param() id) {
+  getProductById(@Req() req, @Param() id) {
+    this.checkAuthorization(req);
+
     return {
       data: this.productService.getProductById(id),
       status: HttpStatus.OK,
@@ -50,17 +67,22 @@ export class ProductsController {
   }
 
   @Delete(':id')
-  removeProductById(@Param() id) {
+  removeProductById(@Req() req, @Param() id) {
+    this.checkAuthorization(req);
+
     return {
-      data: this.productService.getProductById(id),
+      data: this.productService.removeProductById(id),
       status: HttpStatus.OK,
     };
   }
 
   @Put(':id')
-  updateProductById(@Param() id, @Body() newProductInfo) {
+  updateProductById(@Req() req, @Param() id, @Body() newProductInfo) {
+    this.checkAuthorization(req);
+    this.productService.updateProductById(id, newProductInfo);
+
     return {
-      data: this.productService.updateProductById(id, newProductInfo),
+      data: this.productService.getAllProducts(),
       status: HttpStatus.OK,
     };
   }

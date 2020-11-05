@@ -5,20 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>App</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-icons-font@2.0.0/material-icons-font.css"
+    />
+
   </head>
 
   <body>
     <header class="header container">
       <h1 class="title">Marketplace App</h1>
+      <div class="user-info-bar">
+        <p class="user-info-bar__data user-info-bar__data--auth">
+          Authorized:
+          <span class="value">No</span>
+        </p>
+        <p class="user-info-bar__data user-info-bar__data--role">
+          Role:
+          <span class="value">None</span>
+        </p>
+        <p class="user-info-bar__data user-info-bar__data--username">
+          Username:
+          <span class="value">None</span>
+        </p>
+      </div>
       <div class="actions">
         <button class="action action--register">Зарегистрироваться</button>
         <button class="action action--sign-in">Войти</button>
         <button class="action action--sign-out">Выйти</button>
       </div>
     </header>
-    <div class="app container"></div>
-    <div class="modal-wrapper">
-      <form class="form">
+    <div class="container" id="app"></div>
+    <div class="modal-wrapper register-modal">
+      <form class="form register-form">
         <div class="form__block">
           <label for="fullname" class="form__label">Полное имя</label>
           <input
@@ -63,6 +83,34 @@
             type="text"
             class="form__input"
             placeholder="Введите повторно пароль..."
+          />
+          <span class="form__block-error"></span>
+        </div>
+        <button class="form__button">Зарегистрироваться</button>
+      </form>
+    </div>
+    <div class="modal-wrapper auth-modal">
+      <form class="form auth-form">
+        <div class="form__block">
+          <label for="form__b" class="form__label">Электронная почта</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            class="form__input"
+            placeholder="Введите email..."
+          />
+          <span class="form__block-error"></span>
+        </div>
+        <div class="form__block">
+          <label for="password" class="form__label">Пароль</label>
+          <input
+            id="password"
+            name="password"
+            type="text"
+            class="form__input"
+            placeholder="Введите пароль..."
           />
           <span class="form__block-error"></span>
         </div>
