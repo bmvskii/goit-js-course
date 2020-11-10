@@ -8,7 +8,6 @@ const authButtonClickHandler = type =>
 export const closeAuthModal = () => {
   const classes = document.body.classList.value.split(' ');
   const modalClass = classes.find(_class => {
-    // debugger;
     return _class.includes('modal-is-open');
   });
   document.body.classList.remove(modalClass);

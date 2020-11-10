@@ -25,8 +25,8 @@ export class CategoriesController {
   categories = [...categoriesMock];
 
   checkAuthorization(req) {
-    console.log("AUTH:", req.headers.authorization);
-    
+    console.log('AUTH:', req.headers.authorization);
+
     if (!req.headers.authorization) {
       throw new HttpException('Not authorized', HttpStatus.BAD_REQUEST);
     }
@@ -54,7 +54,7 @@ export class CategoriesController {
     this.checkAuthorization(req);
 
     const category = this.categories.find(category => category.id === id);
-    return category ? category : HttpCode(HttpStatus.NOT_FOUND);
+    return category;
   }
 
   @Put(':id')

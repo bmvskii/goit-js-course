@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat Client</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/material-icons-font@2.0.0/material-icons-font.css"
+    />
+  </head>
+
+  <body>
+    <div class="container chat">
+      <header class="header">
+        <h1 class="title">Websocket Chat Room</h1>
+        <div class="users-amount">
+          Members in chat: 
+          <span class="value">20</span>
+        </div>
+        <div class="status status--inactive">Chat status: <span>Off</span></div>
+      </header>
+      <main class="main container">
+        <form class="auth-panel">
+          <label for="name">
+            Your name:
+            <input
+              type="text"
+              class="input"
+              name="name"
+              id="name"
+              placeholder="Type your name"
+            />
+          </label>
+          <button class="button button--join-chat-button">Join to Chat</button>
+        </form>
+
+
+        <h2 class="title">Messages</h2>
+        <div class="chat-area"></div>
+
+        <form class="send-message-form">
+          <label for="message">
+            Message:
+            <textarea name="message" id="message" placeholder="Your message"></textarea>
+          </label>
+          <button class="button button--send-message">Send</button>
+        </form>
+
+        <h2 class="title">Chat Logs</h2>
+        <div class="chat-logs"></div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -3,7 +3,7 @@ import { getFormData } from './utils';
 import { success, error } from '@pnotify/core';
 import { toggleAuthActions, updateUserInfoBar } from '../utils/renderUtils';
 import { closeAuthModal } from '../modals';
-import { getAllCategories } from '../components/category';
+import { getAllCategories, renderAllCategories } from '../components/category';
 import { instance, wrapAxiosWithToken } from '../services/axiosConfig';
 
 const signInButtonRef = document.querySelector('.auth-form .form__button');
@@ -16,10 +16,6 @@ const signInHandler = event => {
   authService
     .signIn(payload)
     .then(response => {
-      // TODO
-      // 1. Сохранить токен, добавить заголовок Authorization
-      // 2. Сохранить role и token в localStorage
-
       const {
         data: { data, message },
       } = response;
@@ -40,8 +36,7 @@ const signInHandler = event => {
 
       wrapAxiosWithToken();
 
-      getAllCategories();
-      // debugger;
+      renderAllCategories();
     })
     .catch(err => {
       error({ text: err });

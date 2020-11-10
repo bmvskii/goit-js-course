@@ -21,13 +21,13 @@ export default [
     name: 'Donut',
     url:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190619-air-fryer-donuts-302-landscape-pf-1561758031.jpg',
-    category: 2,
+    categoryId: 2,
     id: uuid(),
     amount: 10,
   },
   {
     name: 'Pineapple pie',
-    category: 2,
+    categoryId: 2,
     id: uuid(),
     url:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJOcnvlxLYqFPgXAOPJxGcy6--GSm5citDhQ&usqp=CAU',
@@ -42,7 +42,7 @@ export default [
   },
   {
     name: 'Vodka',
-    category: 3,
+    categoryId: 3,
     url:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTP0ldG2h_Qbb7r1ucszazRKP0gzL17TFpr5A&usqp=CAU',
     id: uuid(),
@@ -51,13 +51,13 @@ export default [
   {
     name: 'Cognac',
     url: 'https://mcproductspirit.mc/uploads/product/original/91.jpg',
-    category: 3,
+    categoryId: 3,
     id: uuid(),
     amount: 100,
   },
   {
     name: 'Beer',
-    category: 3,
+    categoryId: 3,
     url: 'https://mova.beer/wp-content/uploads/2019/12/adult-build.png',
     id: uuid(),
     amount: 55,

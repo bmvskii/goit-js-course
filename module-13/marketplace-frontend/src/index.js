@@ -14,11 +14,15 @@ defaults.icons = 'material';
 import './sass/styles.scss';
 
 import './scripts/components/category';
+import './scripts/common';
 
-// import ProductForm from './templates/categoryForm.hbs';
-// import Nav from './templates/navTab.hbs';
-
-// document.getElementById('app').insertAdjacentHTML('afterbegin', ProductForm());
-
-// document.getElementById('app').insertAdjacentHTML('afterbegin', Nav());
-
+fetch('https://restcountries.eu/rest/v2/name/asdasfvxc')
+  .then(res => res.json())
+  .then(result => {
+    if (result.status === 404) {
+      throw new Error("Country doesn't exist");
+    }
+  })
+  .catch(err => {
+    console.log(err);
+  });
