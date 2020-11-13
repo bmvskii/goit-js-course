@@ -10,5 +10,4 @@ defaults.icons = 'material';
 
 import './sass/styles.scss';
 
-import './chat';
-
+import './scripts/chat';

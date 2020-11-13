@@ -38,7 +38,7 @@ export class ProductsController {
 
   @Get()
   getAllProducts(@Req() req) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
     return {
       data: this.productService.getAllProducts(),
       status: HttpStatus.OK,
@@ -47,7 +47,7 @@ export class ProductsController {
 
   @Post()
   createProduct(@Req() req, @Body() body) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
     const product = this.productService.createProduct(body);
 
     return {
@@ -58,7 +58,7 @@ export class ProductsController {
 
   @Get(':id')
   getProductById(@Req() req, @Param() id) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
 
     return {
       data: this.productService.getProductById(id),
@@ -68,7 +68,7 @@ export class ProductsController {
 
   @Delete(':id')
   removeProductById(@Req() req, @Param() id) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
 
     return {
       data: this.productService.removeProductById(id),
@@ -78,7 +78,7 @@ export class ProductsController {
 
   @Put(':id')
   updateProductById(@Req() req, @Param() id, @Body() newProductInfo) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
     this.productService.updateProductById(id, newProductInfo);
 
     return {

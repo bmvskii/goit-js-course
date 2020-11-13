@@ -2,10 +2,18 @@ const WebSocket = require("ws");
 const uuid = require("uuid");
 const express = require("express");
 
+const types = require("./scripts/actionTypes");
+const errors = require("./scripts/errors");
+
+const _u = require("./scripts/utils");
+const _cu = require("./scripts/chat-utils");
+
 const app = express();
 const wss = new WebSocket.Server({ port: 7000 });
+const bcs = _cu.createBroadcast(wss);
 
-const clients = [];
+const connections = [];
+const privateChats = [];
 
 const statuses = {
   ACTIVE: "ACTIVE",
@@ -13,81 +21,170 @@ const statuses = {
   AFK: "AFK",
 };
 
-const broadcast = (data) => {
-  wss.clients.forEach((client) => {
-    if (client !== wss && client.readyState === WebSocket.OPEN) {
-      client.send(data);
-    }
-  });
-};
-
-const unwrap = (message) => JSON.parse(message);
-const wrap = (message) => JSON.stringify(message);
-
-const createNewClient = () => ({
+const createNewConnection = (socket) => ({
   id: uuid.v4(),
   status: statuses.NOT_ACTIVE,
-  color: generateUserColor(),
+  color: _u.generateUserColor(),
+  socket,
 });
 
-const broadcastMessage = (text, id) => {
-  const client = clients.find((client) => id === client.id);
+const processNewConnection = (data) => {
+  const { socket, connections } = data;
+  const connection = createNewConnection(socket);
 
-  if (!client) {
-    ws.send(wrap({ type: "error", text: "User doesn't exist" }));
-  }
-  const payload = wrap({
-    type: "message",
-    text,
-    author_name: client.username,
-    color: client.color,
-    date: Date.now(),
-  });
-  broadcast(payload);
+  const msg = `Client ${connection.id} successfully connected to server`;
+  const payload = { type: types.INITIAL, id: connection.id };
+
+  connections.push(connection);
+
+  _u.log(msg);
+  _u.sendMessage(socket, payload);
 };
 
-const generateUserColor = () =>
-  Math.floor(Math.random() * 16777215).toString(16);
+const processUserJoin = (data) => {
+  const { msg, socket, connections } = data;
+  const { username, id } = msg;
 
-const broadcastLog = (text) => {
-  const payload = wrap({
-    type: "log",
-    text,
-    date: Date.now(),
+  const hasAlreadyJoinedUser =
+    connections.find((conn) => conn.username === username) !== undefined;
+
+  if (hasAlreadyJoinedUser) {
+    const payload = { type: types.ERROR, text: errors.ALREADY_CONNECTED };
+    _u.sendMessage(socket, payload);
+  }
+
+  const client = connections.find((conn) => id === conn.id);
+  client.username = username;
+  client.status = statuses.ACTIVE;
+
+  if (client) {
+    const text = `${username} successfully joined the chat.`;
+    const payload = {
+      ...data,
+      msg: { text },
+    };
+    bcs.broadcastLog(payload);
+  }
+};
+
+const processClosing = (data) => {
+  const { connections, msg, socket } = data;
+  const { id } = msg;
+
+  const conn = connections.find((conn) => conn.id === id);
+
+  connections = connections.filter((conn) => conn.id === id);
+
+  const connectionsNumber = getActualConnectionsNumber();
+
+  console.log(`${conn.username || "Anonym"} successfuly exited the chat.`);
+  console.log("Current connections:", connectionsNumber);
+
+  socket.close();
+};
+
+const sendInvitation = (data) => {
+  const { msg, connections } = data;
+  const { recipientId, clientId } = msg;
+
+  const requester = connections.find((conn) => conn.id === clientId);
+  const recipient = connections.find((conn) => conn.id === recipientId);
+
+  const payload = _u.wrap({
+    username: requester.username,
+    requesterId: clientId,
+    type: types.INVITE_TO_CHAT,
   });
 
-  broadcast(payload);
+  recipient.socket.send(payload);
+};
+
+const acceptInvitation = (data) => {
+  const { msg, connections } = data;
+  const { recipientId, requesterId } = msg;
+
+  const requester = connections.find((conn) => conn.id === requesterId);
+  const recipient = connections.find((conn) => conn.id === recipientId);
+
+  const reqPayload = _u.wrap({
+    username: requester.username,
+    personId: requesterId,
+    type: types.ACCEPT_INVITATION,
+  });
+
+  const recPayload = _u.wrap({
+    username: recipient.username,
+    personId: recipientId,
+    type: types.ACCEPT_INVITATION,
+  });
+
+  recipient.socket.send(reqPayload);
+  requester.socket.send(recPayload);
+};
+
+const processPrivateMessage = (data) => {
+  const { msg, connections } = data;
+  const { from, to, text } = msg;
+
+  const toPerson = connections.find((conn) => conn.id === to);
+  const fromPerson = connections.find((conn) => conn.id === from);
+
+  const payload = _u.wrap({
+    type: types.PRIVATE_MESSAGE,
+    text,
+    status: fromPerson.status,
+    author_name: fromPerson.username,
+    color: fromPerson.color,
+    date: Date.now(),
+    id: fromPerson.id,
+  });
+
+  toPerson.socket.send(payload);
+  fromPerson.socket.send(payload);
+};
+
+const getActualConnectionsNumber = () => connections.length;
+
+const rejectInvitation = (data) => {
+  const { msg, connections } = data;
+  const { recipientId, requesterId } = msg;
+
+  const requester = connections.find((conn) => conn.id === requesterId);
+  const recipient = connections.find((conn) => conn.id === recipientId);
+
+  const payload = _u.wrap({
+    type: types.REJECT_INVITATION,
+    text: `${recipient.username} decline private chat invitation.`,
+  });
+  requester.socket.send(payload);
 };
 
 wss.on("connection", (ws) => {
-  const client = createNewClient();
+  const wrapWithMeta = _cu.createMetaWrapper(ws, connections);
+  const meta = wrapWithMeta();
 
-  clients.push(client);
-  console.log(`Client ${client.id} successfully connected to server`);
-
-  ws.send(wrap({ type: "initial", id: client.id }));
+  processNewConnection(meta);
 
   ws.on("message", (message) => {
     try {
-      const msg = unwrap(message);
+      const msg = _u.unwrap(message);
+      const wMsg = wrapWithMeta(msg);
 
-      if (msg.type === "join") {
-        const { username } = msg;
-        const client = clients.find((client) => msg.id === client.id);
-        client.username = username;
+      const actions = {
+        [types.JOIN]: processUserJoin,
+        [types.MESSAGE]: bcs.broadcastMessage.bind(bcs),
+        [types.CLOSE]: processClosing,
+        [types.UPDATE_TOKEN]: _cu.updateToken,
+        [types.INVITE_TO_CHAT]: sendInvitation,
+        [types.ACCEPT_INVITATION]: acceptInvitation,
+        [types.PRIVATE_MESSAGE]: processPrivateMessage,
+        [types.REJECT_INVITATION]: rejectInvitation,
+      };
 
-        if (client) {
-          broadcastLog(`${username} successfully joined the chat.`);
-        } else {
-          ws.send(wrap({ type: "error", text: "User is already existed" }));
-        }
-      } else if (msg.type === "message") {
-        broadcastMessage(msg.text, msg.id);
-      }
-    } catch (err) {}
+      const currentAction = actions[msg.type];
+      currentAction(wMsg);
+    } catch (err) {
+      console.log(err);
+    }
   });
-
-  //   ws.send(wrap({ type: "connections-info", userAmount: clients.length }));
-
-  //   ws.on("close", )
 });

@@ -1,0 +1,18 @@
+<div class="modal-wrapper modal--private-chat">
+  <div class="modal">
+    <div class="modal__header">
+      <h2 class="modal__title">Private Chat with <div class="username">{{ username }}</div></h2>
+      <button class="modal__button modal__button--close">Close Chat</button>
+    </div>
+    <div class="modal__body">
+      <h2 class="modal__title">Messages:</h2>
+      <div class="modal__message-area">
+
+      </div>
+      <div class="modal__message-form">
+        <textarea name="message" id="message" class="modal__textarea" placeholder="Type your message"></textarea>
+        <button class="modal__button modal__button--send-message" data-id={{ id }}>Send message</button>
+      </div>
+    </div>
+  </div>
+</div>

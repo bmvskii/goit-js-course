@@ -1,0 +1,145 @@
+.modal {
+  padding: 20px 30px;
+  border-radius: 8px;
+  background-color: $white;
+  position: relative;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+
+  &--private-chat {
+    & .modal {
+        background-color: $lime;
+      width: 60vw;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+
+    .modal__title {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+  }
+
+  .username {
+    background-color: $white;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  &__message {
+    &-area {
+        min-height: 500px;
+        background-color: $white;
+        border-radius: 8px;
+        padding: 20px;
+
+        .message {
+          border-radius: 8px;
+        }
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+      margin-top: 10px;
+      border-top: 1px solid $black;
+    }
+  }
+
+  &__title {
+      display: inline-flex;
+      align-items: center;
+  }
+
+  &__textarea {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 20px;
+  }
+
+  &__content {
+    margin-bottom: 20px;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+
+    .action__button {
+      font-weight: bold;
+      padding: 10px 15px;
+      cursor: pointer;
+      border-radius: 8px;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+
+      transition: 0.3s ease;
+
+      &--accept {
+        background-color: $lime;
+      }
+
+      &--reject {
+        background-color: tomato;
+      }
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $black;
+  }
+
+  &__button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background-color: $black;
+    color: $white;
+    border: 1px solid transparent;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+    &:hover {
+      border-color: $black;
+      background-color: $white;
+      color: $black;
+    }
+
+    &--close {
+    }
+
+    &--send-message {
+    }
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}

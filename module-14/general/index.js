@@ -12,7 +12,7 @@ ws.onclose = function(){};
 
 ws.onerror = function(){};
 
-ws.send(/*data - String, Blob, ArrayBuffer*/);
+ws.send(/*data - String, Blob, ArrayBuffer */);
 
 ws.send("Some string");
 ws.send(JSON.stringify({ value: 1}));

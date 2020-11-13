@@ -1,0 +1,16 @@
+<div class="modal-wrapper modal--invite-to-chat">
+    <div class="modal">
+        <div class="modal__header">
+            <h2 class="modal__title">Invite to private chat</h2>
+            <button class="modal__button modal__button--close">Close</button>
+        </div>
+        <div class="modal__body">
+            <p class="modal__content">User: "{{ username }}" wants to invite you to chat with him privately.</p>
+            <p class="modal__content">You can accept or reject this invitation:</p>
+            <div class="modal__actions" data-id={{ id }}>
+                <button class="action__button action__button--accept">Accept</button>
+                <button class="action__button action__button--reject">Reject</button>
+            </div>
+        </div>
+    </div>
+</div>

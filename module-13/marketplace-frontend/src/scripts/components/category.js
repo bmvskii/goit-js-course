@@ -17,36 +17,36 @@ const categoriesMock = {
 };
 
 const categoriesClickHandler = async event => {
-  try {
-    const { target } = event;
-    const category = target.closest('.category');
+  const { target } = event;
+  const category = target.closest('.category');
+  if (category) {
+    const { id } = category.dataset;
+    debugger;
 
-    if (category) {
-      const { id } = category.dataset;
-      const {
-        data: {
-          data: { products },
-        },
-      } = await productsService.getAllProducts();
-      const category = await categoryService.getCategoryById(id);
+    const {
+      data: {
+        data: { products },
+      },
+    } = await productsService.getAllProducts();
+    const category = await categoryService.getCategoryById(id);
 
-      products
-        .filter(product => product.categoryId === Number(id))
-        .forEach(productInfo => {
-          const renderedCategory = ProductCard({
-            ...productInfo,
-            categoryName: categoriesMock[id],
-          });
-          productsWrapper.insertAdjacentHTML('beforeend', renderedCategory);
+    products
+      .filter(product => product.categoryId === Number(id))
+      .forEach(productInfo => {
+        const renderedCategory = ProductCard({
+          ...productInfo,
+          categoryName: categoriesMock[id],
         });
+        productsWrapper.insertAdjacentHTML('beforeend', renderedCategory);
+      });
 
-      app.innerHTML = `<div class="products">${productsWrapper.innerHTML}</div>`;
-      app.insertAdjacentHTML('afterbegin', Nav());
-      initNavBarEventListeners();
-    }
-  } catch (err) {
-    error({ text: err });
+    app.innerHTML = `<div class="products">${productsWrapper.innerHTML}</div>`;
+    app.insertAdjacentHTML('afterbegin', Nav());
+    initNavBarEventListeners();
   }
+  // } catch (err) {
+  //   error({ text: err });
+  // }
 
   // categoryService
   //   .getCategoryById(id)
@@ -104,20 +104,20 @@ const categoriesClickHandler = async event => {
 };
 
 export const renderAllCategories = async () => {
-  try {
-    const { data: categories } = await categoryService.getAllCategories();
-    const categoriesWrapper = document.createElement('div');
+  // try {
+  const { data: categories } = await categoryService.getAllCategories();
+  const categoriesWrapper = document.createElement('div');
 
-    categories.forEach(categoryInfo => {
-      const renderedCategory = CategoryCard(categoryInfo);
-      categoriesWrapper.insertAdjacentHTML('beforeend', renderedCategory);
-    });
+  categories.forEach(categoryInfo => {
+    const renderedCategory = CategoryCard(categoryInfo);
+    categoriesWrapper.insertAdjacentHTML('beforeend', renderedCategory);
+  });
 
-    app.innerHTML = `<div class="categories">${categoriesWrapper.innerHTML}</div>`;
-    app
-      .querySelector('.categories')
-      .addEventListener('click', categoriesClickHandler);
-  } catch (err) {
-    error({ text: err });
-  }
+  app.innerHTML = `<div class="categories">${categoriesWrapper.innerHTML}</div>`;
+  app
+    .querySelector('.categories')
+    .addEventListener('click', categoriesClickHandler);
+  // } catch (err) {
+  //   error({ text: err });
+  // }
 };

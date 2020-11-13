@@ -40,18 +40,18 @@ export class CategoriesController {
 
   @Get()
   getAllCategories(@Req() req) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
     return this.categories;
   }
 
   @Post()
   createCategory(@Req() req, @Body() body) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
   }
 
   @Get(':id')
   getCategoryById(@Req() req, @Param('id') id) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
 
     const category = this.categories.find(category => category.id === id);
     return category;
@@ -59,7 +59,7 @@ export class CategoriesController {
 
   @Put(':id')
   updateCategoryById(@Req() req, @Param('id') id, @Body() body) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
 
     let category = this.categories.find(category => category.id === id);
 
@@ -73,7 +73,7 @@ export class CategoriesController {
 
   @Delete(':id')
   removeCategoryById(@Req() req, @Param('id') id) {
-    this.checkAuthorization(req);
+    // this.checkAuthorization(req);
 
     let category = this.categoriesService.removeCategoryById(id);
     return HttpCode(HttpStatus.OK);

@@ -1,9 +1,16 @@
-<div class="message">
+<div class="message" data-id={{ id }}>
     <div class="message__author">
         <span class="author__name">{{ author_name }} </span>
         <span class="status status--active" style="background-color: #{{ color }}"> </span>
     </div>
 
     <span class="message__text"> {{ text }} </span>
+
+    {{#if showButton }}
+    <div class="actions">
+        <button class="action action--direct-message">Write to DM</button>
+    </div>
+    {{/if}}
+    
     <span class="message__date"> {{ date }} </span>
 </div>

@@ -15,14 +15,3 @@ import './sass/styles.scss';
 
 import './scripts/components/category';
 import './scripts/common';
-
-fetch('https://restcountries.eu/rest/v2/name/asdasfvxc')
-  .then(res => res.json())
-  .then(result => {
-    if (result.status === 404) {
-      throw new Error("Country doesn't exist");
-    }
-  })
-  .catch(err => {
-    console.log(err);
-  });
